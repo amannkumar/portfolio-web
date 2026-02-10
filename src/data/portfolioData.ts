@@ -214,3 +214,26 @@ export const projects = [
     date: "Sep 2023 - Nov 2023",
   },
 ];
+
+export const recentActivityDetails = [
+  {
+    label: "Feb 9 — Monday",
+    value:
+      "DSA: Two Sum, Valid Parentheses, Binary Tree BFS, Longest Substring, Merge Intervals • GitHub: Auth module, Memory fix, API docs, DB optimization, UI styling • Tasks: Proposal, PR reviews, Portfolio update, Flutter animations, System design prep",
+  },
+  {
+    label: "Feb 8 — Sunday",
+    value:
+      "DSA: Two Sum, Valid Parentheses, Binary Tree BFS, Longest Substring, Merge Intervals • GitHub: Auth module, Memory fix, API docs, DB optimization, UI styling • Tasks: Proposal, PR reviews, Portfolio update, Flutter animations, System design prep",
+  },
+  {
+    label: "Feb 7 — Saturday",
+    value:
+      "DSA: Two Sum, Valid Parentheses, Binary Tree BFS, Longest Substring, Merge Intervals • GitHub: Auth module, Memory fix, API docs, DB optimization, UI styling • Tasks: Proposal, PR reviews, Portfolio update, Flutter animations, System design prep",
+  },
+  {
+    label: "Feb 6 — Friday",
+    value:
+      "DSA: Two Sum, Valid Parentheses, Binary Tree BFS, Longest Substring, Merge Intervals • GitHub: Auth module, Memory fix, API docs, DB optimization, UI styling • Tasks: Proposal, PR reviews, Portfolio update, Flutter animations, System design prep",
+  },
+];

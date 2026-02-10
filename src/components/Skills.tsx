@@ -71,7 +71,6 @@ const cloud: SkillGroup = {
   title: "Cloud & DevOps",
   skills: [
     { name: "AWS", Icon: SiAmazonwebservices },
-    // added based on your SWE stack (and resume mentions)
     { name: "Docker", Icon: SiDocker },
     { name: "Redis", Icon: SiRedis },
     { name: "Kafka", Icon: SiApachekafka },
@@ -125,12 +124,10 @@ function GroupCard({
   group,
   isInView,
   delay,
-  wide,
 }: {
   group: SkillGroup;
   isInView: boolean;
   delay: number;
-  wide?: boolean;
 }) {
   return (
     <motion.div
