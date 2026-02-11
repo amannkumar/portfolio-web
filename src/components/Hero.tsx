@@ -171,15 +171,17 @@ const Hero = ({ onViewResume }: HeroProps) => {
               </Button>
             </MagneticButton>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground dark:border-secondary-dark dark:text-secondary-dark dark:hover:bg-secondary-dark/80 dark:hover:text-secondary-foreground"
-              onClick={onViewResume}
-            >
-              <Download className="mr-2 h-5 w-5" />
-              View CV
-            </Button>
+            <MagneticButton strength={0.4}>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground dark:border-secondary-dark dark:text-secondary-dark dark:hover:bg-secondary-dark/80 dark:hover:text-secondary-foreground"
+                onClick={onViewResume}
+              >
+                <Download className="mr-2 h-5 w-5" />
+                View CV
+              </Button>
+            </MagneticButton>
           </motion.div>
 
           {/* Scroll Indicator */}

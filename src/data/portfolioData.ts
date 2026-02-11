@@ -236,4 +236,14 @@ export const recentActivityDetails = [
     value:
       "DSA: Two Sum, Valid Parentheses, Binary Tree BFS, Longest Substring, Merge Intervals • GitHub: Auth module, Memory fix, API docs, DB optimization, UI styling • Tasks: Proposal, PR reviews, Portfolio update, Flutter animations, System design prep",
   },
+  {
+    label: "Feb 5 — Thursday",
+    value:
+      "DSA: Two Sum, Valid Parentheses, Binary Tree BFS, Longest Substring, Merge Intervals • GitHub: Auth module, Memory fix, API docs, DB optimization, UI styling • Tasks: Proposal, PR reviews, Portfolio update, Flutter animations, System design prep",
+  },
+  {
+    label: "Feb 4 — Wednesday",
+    value:
+      "DSA: Two Sum, Valid Parentheses, Binary Tree BFS, Longest Substring, Merge Intervals • GitHub: Auth module, Memory fix, API docs, DB optimization, UI styling • Tasks: Proposal, PR reviews, Portfolio update, Flutter animations, System design prep",
+  },
 ];

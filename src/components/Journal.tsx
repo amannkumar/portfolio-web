@@ -6,6 +6,7 @@ import {
   TooltipTrigger,
   TooltipContent,
 } from "@/components/ui/tooltip";
+import RecentActivityCards from "@/components/utils/RecentActivityCard";
 
 type HeatCell = {
   date: string; // YYYY-MM-DD
@@ -179,7 +180,7 @@ const Journal = ({ data }: Props) => {
   const monthGap = 15; // space between months
 
   return (
-    <section id="journal" className="py-20 relative overflow-hidden">
+    <section id="journal" className="py-20 relative overflow-hidden w-full">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-card/20 to-background" />
 
       <div className="container mx-auto px-4 relative z-10" ref={ref}>
@@ -212,9 +213,12 @@ const Journal = ({ data }: Props) => {
               <span className="text-primary">Journal Entry</span>
             </h3>
 
-            {/* Scroll container + centered */}
-            <div className="overflow-x-auto glass rounded-2xl border border-white/10 p-5 md:p-6 flex justify-center">
-              <div className="inline-block">
+            {/* Scroll container */}
+            <div
+              className="overflow-x-auto glass rounded-2xl border border-white/10 p-5 md:p-6 w-full"
+              style={{ WebkitOverflowScrolling: "touch" }}
+            >
+              <div className="w-max mx-auto">
                 {/* Month labels */}
                 <div
                   className="flex items-end"
@@ -250,7 +254,6 @@ const Journal = ({ data }: Props) => {
                         >
                           {week.map((d, rowIdx) => {
                             if (!d) {
-                              // empty cell for non-month dates
                               return (
                                 <div
                                   key={rowIdx}
@@ -264,10 +267,10 @@ const Journal = ({ data }: Props) => {
                             const count = map.get(iso) ?? 0;
 
                             return (
-                              <Tooltip>
+                              <Tooltip key={iso}>
                                 <TooltipTrigger asChild>
                                   <div
-                                    className={`rounded-[3px] border border-white/15 ${level(count)} transition-all hover:scale-125 hover:border-primary/50 cursor-pointer`}
+                                    className={`rounded-[3px] border border-black/15 dark:border-white/15 ${level(count)} transition-all hover:scale-125 hover:border-primary/50 cursor-pointer`}
                                     style={{
                                       width: cellSize,
                                       height: cellSize,
@@ -301,6 +304,9 @@ const Journal = ({ data }: Props) => {
             <p className="text-xs text-muted-foreground text-center mt-4">
               Hover a square to see the date and activity count.
             </p>
+            <div className="w-full h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent my-6" />
+
+            <RecentActivityCards />
           </div>
         </motion.div>
       </div>
