@@ -7,8 +7,6 @@ import {
   TooltipContent,
 } from "@/components/ui/tooltip";
 import RecentActivityCards from "@/components/utils/RecentActivityCard";
-import { useActivity } from "@/hooks/use-activity";
-import type { ActivityDay } from "@/types/activity";
 
 type HeatCell = {
   date: string; // YYYY-MM-DD
@@ -67,9 +65,9 @@ function daysDiff(a: Date, b: Date) {
   return Math.floor(ms / (1000 * 60 * 60 * 24));
 }
 
-function startOfMonth(d: Date) {
-  return startOfDay(new Date(d.getFullYear(), d.getMonth(), 1));
-}
+// function startOfMonth(d: Date) {
+//   return startOfDay(new Date(d.getFullYear(), d.getMonth(), 1));
+// }
 
 function endOfMonth(d: Date) {
   return startOfDay(new Date(d.getFullYear(), d.getMonth() + 1, 0));

@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useMemo } from "react";
 import { useScrollReveal, scrollVariants } from "@/hooks/use-scroll-reveal";
-import InteractiveElement from "@/components/InteractiveElement";
 import { recentActivityDetails } from "@/data/portfolioData";
 
 type RecentActivity = {
