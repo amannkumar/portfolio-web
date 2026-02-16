@@ -10,7 +10,6 @@ import Skills from "@/components/Skills";
 import Certifications from "@/components/Certifications";
 import Projects from "@/components/Projects";
 import ResumeModal from "@/components/ResumeModal";
-import Journal from "@/components/Journal";
 
 const Index = () => {
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
@@ -21,7 +20,7 @@ const Index = () => {
       <Hero onViewResume={() => setIsResumeModalOpen(true)} />
       <About />
       <Resume onViewResume={() => setIsResumeModalOpen(true)} />
-      <Journal />
+
       <Projects />
       <Certifications />
       <Skills />
