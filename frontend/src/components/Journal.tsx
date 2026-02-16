@@ -7,6 +7,8 @@ import {
   TooltipContent,
 } from "@/components/ui/tooltip";
 import RecentActivityCards from "@/components/utils/RecentActivityCard";
+import { useActivity } from "@/hooks/use-activity";
+import type { ActivityDay } from "@/types/activity";
 
 type HeatCell = {
   date: string; // YYYY-MM-DD
