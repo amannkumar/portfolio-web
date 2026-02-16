@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,6 +36,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: frontend
+        env:
+          VITE_GTAG_ID: ${{ vars.VITE_GTAG_ID }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
