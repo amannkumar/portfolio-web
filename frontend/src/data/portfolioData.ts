@@ -1,3 +1,7 @@
+import image1 from "../assets/image1.jpg";
+import oneclickapply from "../assets/oneclickapply.jpg";
+import warzone from "../assets/warzone.png";
+
 export const personalInfo = {
   name: "Aman Kumar",
   displayName: "Aman Kumar",
@@ -175,7 +179,7 @@ export const projects = [
     description:
       "Built a full-stack productivity platform to manage daily tasks and habits with real-time tracking. Integrated calendar scheduling, automated reminders, and push notifications to improve consistency and habit completion. Designed scalable backend services and deployed cloud infrastructure for reliability.",
     badges: ["Flutter", "Spring Boot", "AWS", "PostgreSQL"],
-    link: "#", // add repo / live link
+    link: "https://github.com/amannkumar/cadera",
     image:
       "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
     date: "2025",
@@ -186,9 +190,8 @@ export const projects = [
     description:
       "Developed a personal DSA revision website to revisit coding problems and pattern solutions. Automatically fetches and renders solutions from GitHub Markdown files, covering NeetCode 150, Blind 75, and structured pattern-based problems with explanations.",
     badges: ["React", "TypeScript", "GitHub API", "Markdown"],
-    link: "#", // add site link
-    image:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+    link: "https://github.com/amannkumar/DSA-Replay",
+    image: image1,
     date: "2025",
   },
 
@@ -197,9 +200,8 @@ export const projects = [
     description:
       "Built a Chrome extension that auto-fills job application forms using resume data. Supports dynamic resume parsing by allowing initial resume upload and mapping fields to job portals, significantly reducing manual application time.",
     badges: ["JavaScript", "Chrome Extensions", "Automation", "DOM Parsing"],
-    link: "#", // add chrome store / repo
-    image:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+    link: "https://github.com/amannkumar/OneClickApply",
+    image: oneclickapply,
     date: "2025",
   },
 
@@ -208,9 +210,8 @@ export const projects = [
     description:
       "Developed a console-based Warzone strategy game in Java implementing core OOP principles and design patterns. Utilized State, Command, and Strategy patterns to manage gameplay mechanics, player actions, and game state transitions. Collaborated using GitHub for version control and peer reviews.",
     badges: ["Java", "OOP", "Design Patterns", "Game Development"],
-    link: "#", // add repo
-    image:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+    link: "https://github.com/amannkumar/CodeWarzone",
+    image: warzone,
     date: "Sep 2023 - Nov 2023",
   },
 ];

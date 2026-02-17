@@ -74,40 +74,46 @@ const Contact = () => {
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           {contactInfo.map((info, index) => {
             const Icon = info.icon;
-            return (
-              <InteractiveElement key={index}>
+            const Card = (
+              <motion.div
+                initial={scrollVariants.assemble.initial}
+                animate={isInView ? scrollVariants.assemble.animate : {}}
+                transition={{
+                  duration: 0.9,
+                  delay: index * 0.15,
+                  ease: [0.22, 1, 0.36, 1],
+                }}
+                className="glass p-8 rounded-2xl text-center group h-full cursor-pointer"
+              >
                 <motion.div
-                  initial={scrollVariants.assemble.initial}
-                  animate={isInView ? scrollVariants.assemble.animate : {}}
-                  transition={{
-                    duration: 0.9,
-                    delay: index * 0.15,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
-                  className="glass p-8 rounded-2xl text-center group h-full"
+                  className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:animate-glow-pulse"
+                  whileHover={{ scale: 1.15, rotate: 10 }}
+                  transition={{ duration: 0.3 }}
                 >
-                  <motion.div
-                    className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:animate-glow-pulse"
-                    whileHover={{ scale: 1.15, rotate: 10 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Icon className="w-8 h-8 text-primary" />
-                  </motion.div>
-                  <h3 className="text-xl font-bold mb-3 text-foreground">
-                    {info.title}
-                  </h3>
-                  {info.link ? (
-                    <a
-                      href={info.link}
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      {info.value}
-                    </a>
-                  ) : (
-                    <p className="text-muted-foreground">{info.value}</p>
-                  )}
+                  <Icon className="w-8 h-8 text-primary" />
                 </motion.div>
+
+                <h3 className="text-xl font-bold mb-3 text-foreground">
+                  {info.title}
+                </h3>
+                <p className="text-muted-foreground group-hover:text-primary transition-colors">
+                  {info.value}
+                </p>
+              </motion.div>
+            );
+
+            return info.link ? (
+              <InteractiveElement
+                key={index}
+                as="a"
+                href={info.link}
+                className="block h-full"
+                aria-label={`${info.title}: ${info.value}`}
+              >
+                {Card}
               </InteractiveElement>
+            ) : (
+              <InteractiveElement key={index}>{Card}</InteractiveElement>
             );
           })}
         </div>
