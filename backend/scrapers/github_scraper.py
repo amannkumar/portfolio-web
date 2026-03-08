@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 load_dotenv()
 
 USERNAME = os.getenv("GITHUB_USERNAME", "amannkumar")
-TOKEN    = os.getenv("GITHUB_TOKEN", GIHUB_API_KEY)
+TOKEN    = os.getenv("GITHUB_TOKEN")
 
 # ── Endpoints ──────────────────────────────────────────────────────────────────
 API_BASE = "https://api.github.com"
