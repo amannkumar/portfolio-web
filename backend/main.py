@@ -412,5 +412,5 @@ async def chat_stream(req: ChatRequest, request: Request):
     return StreamingResponse(token_generator(), media_type="text/event-stream")
 
 from mangum import Mangum
-handler = Mangum(app)
+handler = Mangum(app, lifespan="off")
     
