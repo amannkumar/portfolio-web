@@ -32,10 +32,10 @@ QUERY_LOG_PATH     = os.getenv("QUERY_LOG_PATH", "/tmp/query_log.jsonl")
 
 
 GROQ_MODELS = [
-    GROQ_MODEL,                  # primary (llama-3.3-70b-versatile by default)
-    "llama-3.1-8b-instant",  # fallback 1 — confirmed active, very fast
-    "gemma2-9b-it",          # fallback 2 — confirmed active, Google model
-    "llama3-8b-8192",        # fallback 3 — confirmed active, separate quota
+    GROQ_MODEL,                                      # primary (llama-3.3-70b-versatile by default)
+    "meta-llama/llama-4-scout-17b-16e-instruct",     # fallback 1 — 500K TPD
+    "meta-llama/llama-4-maverick-17b-128e-instruct", # fallback 2 — 500K TPD
+    "llama-3.1-8b-instant",                          # fallback 3 — 500K TPD
 ]
 
 groq_client = Groq(api_key=GROQ_API_KEY)
