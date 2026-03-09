@@ -27,7 +27,8 @@ GROQ_API_KEY       = os.getenv("GROQ_API_KEY")         # required — set in Ren
 GROQ_MODEL         = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 MAX_HISTORY        = int(os.getenv("MAX_HISTORY", "10"))  # max past turns kept in context
 KB_PATH            = os.path.join(os.path.dirname(__file__), "data", "knowledge_base.json")
-QUERY_LOG_PATH     = os.path.join(os.path.dirname(__file__), "data", "query_log.jsonl")
+#QUERY_LOG_PATH     = os.path.join(os.path.dirname(__file__), "data", "query_log.jsonl")
+QUERY_LOG_PATH     = os.getenv("QUERY_LOG_PATH", "/tmp/query_log.jsonl")
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 
@@ -409,4 +410,7 @@ async def chat_stream(req: ChatRequest, request: Request):
             yield f"data: {json.dumps({'error': str(e)})}\n\n"
 
     return StreamingResponse(token_generator(), media_type="text/event-stream")
+
+from mangum import Mangum
+handler = Mangum(app)
     

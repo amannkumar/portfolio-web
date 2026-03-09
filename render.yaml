@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: portfolio-rag-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt && python build_knowledge_base.py
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false # set manually in Render dashboard
+      - key: GITHUB_USERNAME
+        value: amannkumar
+      - key: GITHUB_TOKEN
+        sync: false # set manually in Render dashboard
+      - key: LEETCODE_USERNAME
+        value: amannkumar
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: MAX_HISTORY
+        value: "10"
+    healthCheckPath: /health

@@ -9,3 +9,4 @@ chromadb
 fastapi
 groq
 Path
+mangum

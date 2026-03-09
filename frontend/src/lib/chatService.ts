@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL ?? "";
 const SESSION_ID = crypto.randomUUID(); // one UUID per page load — groups turns in the query log
 
 // ── Types ──────────────────────────────────────────────────────────────────────

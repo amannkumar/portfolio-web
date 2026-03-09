@@ -38,6 +38,7 @@ jobs:
         working-directory: frontend
         env:
           VITE_GTAG_ID: ${{ vars.VITE_GTAG_ID }}
+          VITE_API_URL: ${{ vars.VITE_API_URL }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

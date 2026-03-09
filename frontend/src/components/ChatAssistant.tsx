@@ -5,12 +5,6 @@ import { chatService, QUICK_QUESTIONS } from "@/lib/chatService";
 import type { ChatMessage } from "@/lib/chatService";
 import { Button } from "@/components/utils/button";
 
-const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
-
-// Generate a session ID once per page load so multi-turn conversations
-// are grouped together in the backend query log
-const SESSION_ID = crypto.randomUUID();
-
 const ChatAssistant = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
