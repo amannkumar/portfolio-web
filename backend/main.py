@@ -81,6 +81,7 @@ def log_query(
     latency_ms: int,
     ip:         str,
     session_id: str | None = None,
+    model:      str | None = None,
 ) -> None:
     """
     Append one JSON line to data/query_log.jsonl every time someone asks a question.
@@ -107,6 +108,7 @@ def log_query(
         "time":       now.strftime("%H:%M:%S"),
         "ip":         ip,
         "session_id": session_id,
+        "model":      model,    
         "question":   question,
         "reply":      reply,
         "latency_ms": latency_ms,
