@@ -36,6 +36,9 @@ GROQ_MODELS = [
     "meta-llama/llama-4-scout-17b-16e-instruct",     # fallback 1 — 500K TPD
     "meta-llama/llama-4-maverick-17b-128e-instruct", # fallback 2 — 500K TPD
     "llama-3.1-8b-instant",                          # fallback 3 — 500K TPD
+    "qwen/qwen3-32b",                                 # fallback 4 — 500K TPD
+    "moonshotai/kimi-k2-instruct",                    # fallback 5 — 300K TPD
+    "allam-2-7b",                                     # fallback 6 — 500K TPD
 ]
 
 groq_client = Groq(api_key=GROQ_API_KEY)
