@@ -30,10 +30,50 @@ KB_PATH            = os.path.join(os.path.dirname(__file__), "data", "knowledge_
 #QUERY_LOG_PATH     = os.path.join(os.path.dirname(__file__), "data", "query_log.jsonl")
 QUERY_LOG_PATH     = os.getenv("QUERY_LOG_PATH", "/tmp/query_log.jsonl")
 
+
+GROQ_MODELS = [
+    GROQ_MODEL,                  # primary (llama-3.3-70b-versatile by default)
+    "llama3-70b-8192",           # fallback 1 — separate TPD bucket
+    "llama3-8b-8192",            # fallback 2 — smaller but very fast
+    "gemma2-9b-it",              # fallback 3 — Google model, different bucket
+]
+
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 # ── Thread lock — prevents garbled writes if two requests arrive simultaneously
 _log_lock = threading.Lock()
+
+# ── Groq call with automatic model fallback ────────────────────────────────────
+
+def call_groq_with_fallback(
+    messages: list,
+    stream:   bool = False,
+) -> tuple:
+    last_error = None
+    for model in GROQ_MODELS:
+        try:
+            response = groq_client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=0.3,
+                max_tokens=1024,
+                stream=stream,
+            )
+            if model != GROQ_MODELS[0]:
+                log.info(f"Fallback model used: {model}")
+            return response, model
+        except Exception as e:
+            err_str = str(e)
+            if "rate_limit_exceeded" in err_str or "429" in err_str:
+                log.warning(f"Rate limit hit on {model} — trying next model...")
+                last_error = e
+                continue
+            # Non-rate-limit error — don't retry
+            raise e
+
+    # All models exhausted
+    log.error("All Groq models rate-limited.")
+    raise last_error
 
 def log_query(
     question:   str,
@@ -250,6 +290,14 @@ def _get_ip(request: Request) -> str:
         return forwarded.split(",")[0].strip()
     return request.client.host if request.client else "unknown"
 
+def _build_messages(system_prompt: str, history: list[Message], user_message: str) -> list:
+    trimmed = history[-(MAX_HISTORY * 2):]
+    return (
+        [{"role": "system", "content": system_prompt}]
+        + [{"role": m.role, "content": m.content} for m in trimmed]
+        + [{"role": "user", "content": user_message}]
+    )
+
 
 # ── Routes ─────────────────────────────────────────────────────────────────────
 
@@ -320,24 +368,11 @@ def chat(req: ChatRequest, request: Request):
     except FileNotFoundError as e:
         raise HTTPException(status_code=503, detail=str(e))
 
-    system_prompt = build_system_prompt(kb_text)
-
-    # Build message list: system + trimmed history + new user message
-    history  = req.history[-(MAX_HISTORY * 2):]
-    messages = (
-        [{"role": "system", "content": system_prompt}]
-        + [{"role": m.role, "content": m.content} for m in history]
-        + [{"role": "user", "content": req.message}]
-    )
+    messages = _build_messages(build_system_prompt(kb_text), req.history, req.message)
 
     t0 = time.perf_counter()
     try:
-        response = groq_client.chat.completions.create(
-            model=GROQ_MODEL,
-            messages=messages,
-            temperature=0.3,
-            max_tokens=1024,
-        )
+        response, model_used = call_groq_with_fallback(messages, stream=False)
     except Exception as e:
         log.error(f"Groq API error: {e}")
         raise HTTPException(status_code=502, detail=f"LLM error: {str(e)}")
@@ -345,24 +380,25 @@ def chat(req: ChatRequest, request: Request):
     latency_ms = int((time.perf_counter() - t0) * 1000)
     reply      = response.choices[0].message.content.strip()
 
-    # ── Log the question + reply for later review ──────────────
+    # ── Log the question + reply for later review 
     log_query(
         question=req.message,
         reply=reply,
         latency_ms=latency_ms,
         ip=_get_ip(request),
         session_id=req.session_id,
+        model=model_used,
     )
 
-    # ── Log to Vercel ───────────────────────────────────────────────
+    # ── Log to Vercel 
     log.info(
-        f"Chat query handled | session={req.session_id} | latency={latency_ms}ms\n"
+        f"Chat query handled | session={req.session_id} | latency={latency_ms}ms | model={model_used}\n"
         f"Question: {req.message[:500]}\n"
         f"Reply: {reply[:1000]}"
     )
 
-    log.info(f"chat | {latency_ms}ms | in={len(req.message)} | out={len(reply)}")
-    return ChatResponse(reply=reply, model=GROQ_MODEL, latency_ms=latency_ms)
+    #log.info(f"chat | {latency_ms}ms | in={len(req.message)} | out={len(reply)}")
+    return ChatResponse(reply=reply, model=model_used, latency_ms=latency_ms)
 
 
 @app.post("/chat/stream")
@@ -376,27 +412,15 @@ async def chat_stream(req: ChatRequest, request: Request):
     except FileNotFoundError as e:
         raise HTTPException(status_code=503, detail=str(e))
 
-    system_prompt = build_system_prompt(kb_text)
-    history       = req.history[-(MAX_HISTORY * 2):]
-    messages      = (
-        [{"role": "system", "content": system_prompt}]
-        + [{"role": m.role, "content": m.content} for m in history]
-        + [{"role": "user", "content": req.message}]
-    )
-
+    messages   = _build_messages(build_system_prompt(kb_text), req.history, req.message)
     ip         = _get_ip(request)
     t0         = time.perf_counter()
     full_reply = []   # collect tokens so we can log the complete reply at the end
 
     async def token_generator() -> AsyncGenerator[str, None]:
+        model_used = GROQ_MODELS[0]
         try:
-            stream = groq_client.chat.completions.create(
-                model=GROQ_MODEL,
-                messages=messages,
-                temperature=0.3,
-                max_tokens=1024,
-                stream=True,
-            )
+            stream, model_used = call_groq_with_fallback(messages, stream=True)
             for chunk in stream:
                 token = chunk.choices[0].delta.content or ""
                 if token:
@@ -404,17 +428,18 @@ async def chat_stream(req: ChatRequest, request: Request):
                     yield f"data: {json.dumps({'token': token})}\n\n"
 
             # ── Log after stream fully completes ───────────────
+            reply_text = "".join(full_reply)
             log_query(
                 question=req.message,
-                reply="".join(full_reply),
+                reply=reply_text,
                 latency_ms=int((time.perf_counter() - t0) * 1000),
                 ip=ip,
                 session_id=req.session_id,
+                model=model_used,
             )
             # ── Log in vercel after stream fully completes ───────────────
-            reply_text = "".join(full_reply)
             latency = int((time.perf_counter() - t0) * 1000)
-            log.info(f"Chat query handled | session={req.session_id} | ip={ip} | latency={latency}ms\n"
+            log.info(f"Chat query handled | session={req.session_id} | ip={ip} | latency={latency}ms | model={model_used}\n"
                 f"Question: {req.message[:500]}\n"
                 f"Reply: {reply_text[:1000]}"
             )
