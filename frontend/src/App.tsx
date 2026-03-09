@@ -27,7 +27,6 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
-        {/* AI Chatbot */}
         <ChatAssistant />
       </TooltipProvider>
     </ThemeProvider>

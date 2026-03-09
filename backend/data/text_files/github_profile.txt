@@ -1,0 +1,479 @@
+GitHub Profile Summary for @amannkumar
+
+Profile:
+  - name: Aman Kumar
+  - public_repos: 23
+
+Total public repos (non-fork): 21
+Languages used: C++, Dart, Java, TypeScript, JavaScript
+
+Recent Commits (last 31):
+  - [2026-03-09] amannkumar/portfolio-web: fix: remove /portfolio-web basename for Vercel deployment
+  - [2026-03-09] amannkumar/portfolio-web: fix: use rewrites instead of routes in vercel.json
+  - [2026-03-09] amannkumar/portfolio-web: fix: pin groq and httpx versions for Vercel compatibility
+  - [2026-03-09] amannkumar/portfolio-web: fix: pin groq and httpx versions for Vercel compatibility
+  - [2026-03-09] amannkumar/portfolio-web: deployment issue
+  - [2026-01-26] amannkumar/DSA-Replay: added array questions
+  - [2026-01-26] amannkumar/DSA-Replay: array questions commit
+  - [2026-01-22] amannkumar/DSA-Replay: Refactor containsDuplicate function and update doc
+  - [2026-01-22] amannkumar/DSA-Replay: contains duplicate code
+  - [2026-01-21] amannkumar/DSA-Replay: Fix time complexity notation for DSU algorithm
+  - [2025-08-10] amannkumar/GammaFunction: Merge remote-tracking branch 'origin/master'
+  - [2025-08-10] amannkumar/GammaFunction: D3 added sonarcube changes
+  - [2025-08-09] amannkumar/GammaFunction: Update README.md
+  - [2025-08-09] amannkumar/GammaFunction: Update README.md
+  - [2025-08-09] amannkumar/GammaFunction: Merge remote-tracking branch 'origin/master'
+  - [2025-04-11] amannkumar/CodeWarzone: Merge remote-tracking branch 'origin/build3dev' into build3dev
+  - [2025-04-11] amannkumar/CodeWarzone: added bug fixes
+  - [2025-04-11] amannkumar/CodeWarzone: added bug fixes
+  - [2025-04-06] amannkumar/CodeWarzone: added bug fixes
+  - [2025-04-06] amannkumar/CodeWarzone: added bug fixes
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: portfolio-web
+  URL:         https://github.com/amannkumar/portfolio-web
+  Description: 
+  Language:    TypeScript
+  Stars:       0  |  Forks: 0
+  Last pushed: 2026-03-09
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: cadera
+  URL:         https://github.com/amannkumar/cadera
+  Description: 
+  Language:    N/A
+  Stars:       0  |  Forks: 0
+  Last pushed: 2026-02-17
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: OneClickApply
+  URL:         https://github.com/amannkumar/OneClickApply
+  Description: Built a Chrome extension that auto-fills job application forms using resume data. Supports dynamic resume parsing by allowing initial resume upload and mapping fields to job portals, significantly reducing manual application time.
+  Language:    N/A
+  Stars:       0  |  Forks: 0
+  Last pushed: 2026-02-17
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: DSA-Replay
+  URL:         https://github.com/amannkumar/DSA-Replay
+  Description: My explanation/solutions for neetcode 150
+  Language:    N/A
+  Stars:       0  |  Forks: 0
+  Last pushed: 2026-01-26
+
+  README (excerpt):
+    # NeetCode-150
+    My explanation/solutions for neetcode 150
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: GammaFunction
+  URL:         https://github.com/amannkumar/GammaFunction
+  Description: 
+  Language:    Java
+  Stars:       0  |  Forks: 0
+  Last pushed: 2025-08-12
+
+  README (excerpt):
+    SOEN 6011 – Deliverables D1–D3
+    Function F4 – Gamma Function (Γ(x))
+    Author: Aman Kumar
+    
+    --------------------------------------
+    1. INTRODUCTION
+    --------------------------------------
+    This project implements the Gamma function Γ(x) in Java using the Lanczos approximation. 
+    It supports real numbers, including negative non-integers, and follows mathematical 
+    properties.
+    
+    --------------------------------------
+    2. FEATURES
+    --------------------------------------
+    - Accurate Gamma function computation using Lanczos approximation.
+    - Handles:
+        * Positive real inputs
+        * Negative non-integer inputs vi
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: CodeWarzone
+  URL:         https://github.com/amannkumar/CodeWarzone
+  Description: 
+  Language:    Java
+  Stars:       0  |  Forks: 0
+  Last pushed: 2025-04-12
+
+  README (excerpt):
+    # CodeWarzone
+    SOEN - 6441: Winter 2025 Project
+    
+    - Shivansh Gupta
+    - Aman Kumar
+    - Md Ariful Hossain
+    - Nadia Tasnim Mim
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: time_chat
+  URL:         https://github.com/amannkumar/time_chat
+  Description: 
+  Language:    C++
+  Stars:       0  |  Forks: 0
+  Last pushed: 2025-01-15
+
+  README (excerpt):
+    # time_chat
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is a starting point for a Flutter application.
+    
+    A few resources to get you started if this is your first Flutter project:
+    
+    - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+    - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    
+    For help getting started with Flutter development, view the
+    [online documentation](https://docs.flutter.dev/), which offers tutorials,
+    samples, guidance on mobile development, and a full API reference.
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: Weekly-Journal
+  URL:         https://github.com/amannkumar/Weekly-Journal
+  Description: 
+  Language:    N/A
+  Stars:       0  |  Forks: 0
+  Last pushed: 2024-04-14
+
+  README (excerpt):
+    Learning Journal Template  
+    
+     
+    
+    Student Name: Aman Kumar 
+    
+    Course: SOEN 6841 Software Project management 
+    
+    Journal URL: https://github.com/amannkumar/Weekly-Journal/blob/main/README.md 
+    
+     
+    
+    Week 1: Jan 18-Jan 27 
+    
+    Date: 27 Jan 2024 
+    
+     
+    
+    Key Concepts Learned: Started learning backend development in NodeJS which is based on JavaScript language. Started off with covering basics in the programming language to working on OS paths, http modules and learning about sync vs async programming, 
+    
+     
+    
+    Application in Real Projects: The learnings would help me become a better software developer by understand
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: node_basics
+  URL:         https://github.com/amannkumar/node_basics
+  Description: 
+  Language:    JavaScript
+  Stars:       0  |  Forks: 0
+  Last pushed: 2024-01-30
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: exercise_app
+  URL:         https://github.com/amannkumar/exercise_app
+  Description: 
+  Language:    C++
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-03-25
+
+  README (excerpt):
+    # Exercise App
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is a starting point for a Flutter application.
+    
+    A few resources to get you started if this is your first Flutter project:
+    
+    - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+    - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    
+    For help getting started with Flutter development, view the
+    [online documentation](https://docs.flutter.dev/), which offers tutorials,
+    samples, guidance on mobile development, and a full API reference.
+    
+    ## DEMO
+    ![demo](https://user-images.githubus
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: getx_application
+  URL:         https://github.com/amannkumar/getx_application
+  Description: 
+  Language:    C++
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-03-02
+
+  README (excerpt):
+    # getx_application
+    
+    A new Flutter project.
+    
+    ## Implementing the features below:
+    
+     - Creating our Project and adding Getx Pacakages
+     - Get Material App (Why we used Get Material App)
+     - GetX as utilities
+     - GetX Snackbar
+     - Getx Dialog Alert
+     - Getx Bottom Sheet
+     - Getx Change Light & Dark Theme with GetX Flutter
+     - Getx Navigator & Routes (How to pass data between different screens)
+    
+     # Demo
+    
+    ![giphy](https://user-images.githubusercontent.com/113698292/222402968-8490164a-18d7-4dab-993c-5fe419e0aea8.gif)
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: workout_application
+  URL:         https://github.com/amannkumar/workout_application
+  Description: 
+  Language:    C++
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-02-26
+
+  README (excerpt):
+    # workout_app
+    
+    A new Flutter project.
+    
+    ## Project Overview
+    
+    This project is a workout application for a GetX Flutter application.
+    
+    A few resources to get you started if this is your first Flutter project:
+    
+    ![giphy2](https://user-images.githubusercontent.com/113698292/221420351-4de051ff-253d-4bdf-9abe-8b266881a259.gif)
+    
+    ![giphy1](https://user-images.githubusercontent.com/113698292/221420432-1bff75db-f2f5-4198-8f89-8a786ac148d8.gif)
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: video_chat_app
+  URL:         https://github.com/amannkumar/video_chat_app
+  Description: 
+  Language:    C++
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-02-22
+
+  README (excerpt):
+    # flutter_application_1
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is a starting point for a Flutter application.
+    
+    A few resources to get you started if this is your first Flutter project:
+    
+    - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+    - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    
+    For help getting started with Flutter development, view the
+    [online documentation](https://docs.flutter.dev/), which offers tutorials,
+    samples, guidance on mobile development, and a full API reference.
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: amannkumar
+  URL:         https://github.com/amannkumar/amannkumar
+  Description: 
+  Language:    N/A
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-02-22
+
+  README (excerpt):
+    ### Hi there 👋 I,m Aman
+    <!--- TODO Add followers when >50
+    a href="">
+      <img align="left" alt="Aman's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+    </a>\-->
+    <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+    <a href="https://www.linkedin.com/in/amank1030/">
+      <img align="left" alt="Aman's Linkdein" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    <!--- TODO Add followers when >50
+    <a href="">
+      <img align="left" alt=
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: messenger_app
+  URL:         https://github.com/amannkumar/messenger_app
+  Description: 
+  Language:    Dart
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-02-03
+
+  README (excerpt):
+    # messenger application
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is a make a clone of a messenger application using Flutter.
+    
+    # Demo
+    
+    ![messenger_app](https://user-images.githubusercontent.com/113698292/216693594-1e595ad6-7e18-4f6b-9046-83e829a046fb.gif)
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: rolling_dice_app
+  URL:         https://github.com/amannkumar/rolling_dice_app
+  Description: 
+  Language:    C++
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-02-03
+
+  README (excerpt):
+    # Rolling Dice App
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is for showing basic animation in a Flutter application.
+    For this I have used Curves classes to animate the both the dice.
+    
+    # Curve Classes
+    
+    ![curve_classes_1](https://user-images.githubusercontent.com/113698292/216690290-ea12f624-e6a0-49c3-8dab-5dbc7d20804f.gif)
+    
+    ![curve_classes_2](https://user-images.githubusercontent.com/113698292/216690432-77aae004-cd2a-4589-8caf-466622c0c7f7.gif)
+    
+    
+    # Demo
+    In this case curves.bounceout is being used.
+    
+    ![rolling_dice](https://user-images.githubusercontent.com/113698292/216690811-de
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: ticket_booking_app
+  URL:         https://github.com/amannkumar/ticket_booking_app
+  Description: 
+  Language:    Dart
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-02-03
+
+  README (excerpt):
+    # ticket_booking_app
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is to show frontend build for a Flutter application.
+    
+    # Demo
+    ![ticket_booking_app](https://user-images.githubusercontent.com/113698292/216687272-53f4a3ef-4782-4e37-8545-a9bcb373d05c.gif)
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: getx_route_app
+  URL:         https://github.com/amannkumar/getx_route_app
+  Description: 
+  Language:    Dart
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-02-03
+
+  README (excerpt):
+    # getx_route_management_demo
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is a consist of a simple UI showing example of route management through GETX.
+    
+    The live Demo of the project is displayed 
+    
+    ![getx route management](https://user-images.githubusercontent.com/113698292/216594262-10eefe53-8472-4f11-b5c9-29c87aa7436a.gif)
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: notesApp
+  URL:         https://github.com/amannkumar/notesApp
+  Description: Created a flask web app to store notes
+  Language:    N/A
+  Stars:       0  |  Forks: 0
+  Last pushed: 2023-01-03
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: Getx_Weather_app
+  URL:         https://github.com/amannkumar/Getx_Weather_app
+  Description: Created a weather application which uses GetX state management
+  Language:    C++
+  Stars:       0  |  Forks: 0
+  Last pushed: 2022-10-13
+
+  README (excerpt):
+    # weather_app
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is a starting point for a Flutter application.
+    
+    A few resources to get you started if this is your first Flutter project:
+    
+    - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+    - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+    
+    For help getting started with Flutter, view our
+    [online documentation](https://flutter.dev/docs), which offers tutorials,
+    samples, guidance on mobile development, and a full API reference.
+
+────────────────────────────────────────────────────────────
+
+GitHub Repository: first-bloc-app
+  URL:         https://github.com/amannkumar/first-bloc-app
+  Description: Created a counter app which would add, subtract and reset the counter using Bloc state management. Created two stream controllers stateStreamController and EventStreamController. I created stateStreamController so that the app does not build multiple times when the counter is increased and created eventStreamController to separate the UI and logic
+  Language:    C++
+  Stars:       0  |  Forks: 0
+  Last pushed: 2022-10-12
+
+  README (excerpt):
+    # first_bloc_app
+    
+    A new Flutter project.
+    
+    ## Getting Started
+    
+    This project is a starting point for a Flutter application.
+    
+    A few resources to get you started if this is your first Flutter project:
+    
+    - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+    - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+    
+    For help getting started with Flutter, view our
+    [online documentation](https://flutter.dev/docs), which offers tutorials,
+    samples, guidance on mobile development, and a full API reference.
