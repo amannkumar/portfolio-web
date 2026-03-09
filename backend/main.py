@@ -354,12 +354,11 @@ def chat(req: ChatRequest, request: Request):
         session_id=req.session_id,
     )
 
-    # ── Log in vercel after stream fully completes ───────────────
-    reply_text = "".join(reply)
-    latency = int((time.perf_counter() - t0) * 1000)
-    log.info(f"Chat query handled | session={req.session_id} | ip={ip} | latency={latency}ms\n"
+    # ── Log to Vercel ───────────────────────────────────────────────
+    log.info(
+        f"Chat query handled | session={req.session_id} | latency={latency_ms}ms\n"
         f"Question: {req.message[:500]}\n"
-        f"Reply: {reply_text[:1000]}"
+        f"Reply: {reply[:1000]}"
     )
 
     log.info(f"chat | {latency_ms}ms | in={len(req.message)} | out={len(reply)}")
