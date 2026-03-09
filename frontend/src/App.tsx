@@ -19,7 +19,7 @@ const App = () => (
         <Sonner />
         <CustomCursor />
         <AnimatedBackground />
-        <BrowserRouter basename="/portfolio-web">
+        <BrowserRouter basename="/">
           <Routes>
             {/* Try both / and empty path to be safe */}
             <Route path="/" element={<Index />} />
