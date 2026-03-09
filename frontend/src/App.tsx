@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ChatAssistant from "@/components/ChatAssistant";
+import { Analytics } from "@vercel/analytics/next";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ const App = () => (
           </Routes>
         </BrowserRouter>
         <ChatAssistant />
+        <Analytics />
       </TooltipProvider>
     </ThemeProvider>
   </QueryClientProvider>
