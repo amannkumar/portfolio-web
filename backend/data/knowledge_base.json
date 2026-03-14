@@ -1,7 +1,7 @@
 [
   {
     "source": "github_profile",
-    "content": "GitHub Profile Summary for @amannkumar\n\nProfile:\n  - name: Aman Kumar\n  - public_repos: 23\n\nTotal public repos (non-fork): 21\nLanguages used: C++, Dart, Java, TypeScript, JavaScript\n\nRecent Commits (last 31):\n  - [2026-03-09] amannkumar/portfolio-web: fix: remove /portfolio-web basename for Vercel deployment\n  - [2026-03-09] amannkumar/portfolio-web: fix: use rewrites instead of routes in vercel.json\n  - [2026-03-09] amannkumar/portfolio-web: fix: pin groq and httpx versions for Vercel compatibility\n  - [2026-03-09] amannkumar/portfolio-web: fix: pin groq and httpx versions for Vercel compatibility\n  - [2026-03-09] amannkumar/portfolio-web: deployment issue\n  - [2026-01-26] amannkumar/DSA-Replay: added array questions\n  - [2026-01-26] amannkumar/DSA-Replay: array questions commit\n  - [2026-01-22] amannkumar/DSA-Replay: Refactor containsDuplicate function and update doc\n  - [2026-01-22] amannkumar/DSA-Replay: contains duplicate code\n  - [2026-01-21] amannkumar/DSA-Replay: Fix time complexity notation for DSU algorithm\n  - [2025-08-10] amannkumar/GammaFunction: Merge remote-tracking branch 'origin/master'\n  - [2025-08-10] amannkumar/GammaFunction: D3 added sonarcube changes\n  - [2025-08-09] amannkumar/GammaFunction: Update README.md\n  - [2025-08-09] amannkumar/GammaFunction: Update README.md\n  - [2025-08-09] amannkumar/GammaFunction: Merge remote-tracking branch 'origin/master'\n  - [2025-04-11] amannkumar/CodeWarzone: Merge remote-tracking branch 'origin/build3dev' into build3dev\n  - [2025-04-11] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-11] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-06] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-06] amannkumar/CodeWarzone: added bug fixes",
+    "content": "GitHub Profile Summary for @amannkumar\n\nProfile:\n  - name: Aman Kumar\n  - public_repos: 23\n\nTotal public repos (non-fork): 21\nLanguages used: C++, Dart, Java, TypeScript, JavaScript\n\nRecent Commits (last 31):\n  - [2026-03-09] amannkumar/portfolio-web: fix: added 6 fallback model to avoid rate limit\n  - [2026-03-09] amannkumar/portfolio-web: fix: add model param to log_query signature\n  - [2026-03-09] amannkumar/portfolio-web: fix: update fallback chain to active Groq models with 500K TPD\n  - [2026-03-09] amannkumar/portfolio-web: fix: replace decommissioned llama3-70b-8192 with active models\n  - [2026-03-09] amannkumar/portfolio-web: feat: add Groq model fallback chain for rate limit reach\n  - [2026-01-26] amannkumar/DSA-Replay: added array questions\n  - [2026-01-26] amannkumar/DSA-Replay: array questions commit\n  - [2026-01-22] amannkumar/DSA-Replay: Refactor containsDuplicate function and update doc\n  - [2026-01-22] amannkumar/DSA-Replay: contains duplicate code\n  - [2026-01-21] amannkumar/DSA-Replay: Fix time complexity notation for DSU algorithm\n  - [2025-08-10] amannkumar/GammaFunction: Merge remote-tracking branch 'origin/master'\n  - [2025-08-10] amannkumar/GammaFunction: D3 added sonarcube changes\n  - [2025-08-09] amannkumar/GammaFunction: Update README.md\n  - [2025-08-09] amannkumar/GammaFunction: Update README.md\n  - [2025-08-09] amannkumar/GammaFunction: Merge remote-tracking branch 'origin/master'\n  - [2025-04-11] amannkumar/CodeWarzone: Merge remote-tracking branch 'origin/build3dev' into build3dev\n  - [2025-04-11] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-11] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-06] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-06] amannkumar/CodeWarzone: added bug fixes",
     "metadata": {
       "source": "https://github.com/amannkumar",
       "source_type": "github_profile",
@@ -262,7 +262,7 @@
   },
   {
     "source": "leetcode_profile",
-    "content": "LeetCode Profile Summary for @amannkumar\n\nProfile:\nProfile:\n  - realName: amannkumar\n  - ranking: 713868\n\nSolved / Submission Stats:\n  - All: solved=207, submissions=322\n  - Easy: solved=97, submissions=149\n  - Medium: solved=97, submissions=151\n  - Hard: solved=13, submissions=22\n\nContest Rankings:\n  - rating: 1500.1728983881324\n  - globalRanking: 368636\n  - attendedContestsCount: 10\n  - topPercentage: 43.97\n  - totalParticipants: 847437\n\nBadges:\n  - 50 Days Badge 2026\n  - 50 Days Badge 2025\n\nRecent Accepted Submissions (last 20):\n  - [1772859397] Two Sum IV - Input is a BST (cpp)  →  https://leetcode.com/problems/two-sum-iv-input-is-a-bst/\n  - [1772858858] Average of Levels in Binary Tree (cpp)  →  https://leetcode.com/problems/average-of-levels-in-binary-tree/\n  - [1772858126] Reverse Words in a String III (cpp)  →  https://leetcode.com/problems/reverse-words-in-a-string-iii/\n  - [1772828758] Shortest Distance to a Character (cpp)  →  https://leetcode.com/problems/shortest-distance-to-a-character/\n  - [1772752339] Number of Lines To Write String (cpp)  →  https://leetcode.com/problems/number-of-lines-to-write-string/\n  - [1772664343] Jewels and Stones (cpp)  →  https://leetcode.com/problems/jewels-and-stones/\n  - [1772502872] To Lower Case (cpp)  →  https://leetcode.com/problems/to-lower-case/\n  - [1772502772] Search in a Binary Search Tree (cpp)  →  https://leetcode.com/problems/search-in-a-binary-search-tree/\n  - [1772501339] Array Partition (cpp)  →  https://leetcode.com/problems/array-partition/\n  - [1772498922] Distribute Candies (cpp)  →  https://leetcode.com/problems/distribute-candies/\n  - [1772497969] Relative Ranks (cpp)  →  https://leetcode.com/problems/relative-ranks/\n  - [1772490297] Fibonacci Number (cpp)  →  https://leetcode.com/problems/fibonacci-number/\n  - [1772489254] Next Greater Element I (cpp)  →  https://leetcode.com/problems/next-greater-element-i/\n  - [1772333675] Minimum Cost to Split into Ones (cpp)  →  https://leetcode.com/problems/minimum-cost-to-split-into-ones/\n  - [1772333001] Trim Trailing Vowels (cpp)  →  https://leetcode.com/problems/trim-trailing-vowels/\n  - [1772291731] Merge Close Characters (cpp)  →  https://leetcode.com/problems/merge-close-characters/\n  - [1772289827] Smallest Pair With Different Frequencies (cpp)  →  https://leetcode.com/problems/smallest-pair-with-different-frequencies/\n  - [1772252789] Find the Difference (cpp)  →  https://leetcode.com/problems/find-the-difference/\n  - [1772252109] Word Pattern (cpp)  →  https://leetcode.com/problems/word-pattern/\n  - [1772250703] Move Zeroes (cpp)  →  https://leetcode.com/problems/move-zeroes/\n\nSubmission calendar (raw JSON string):\n{\"1767225600\": 3, \"1767312000\": 12, \"1767398400\": 3, \"1767484800\": 2, \"1767571200\": 6, \"1767657600\": 1, \"1767744000\": 3, \"1767830400\": 3, \"1767916800\": 1, \"1768003200\": 1, \"1768089600\": 5, \"1768176000\": 3, \"1768262400\": 2, \"1768348800\": 8, \"1768435200\": 1, \"1768521600\": 1, \"1768694400\": 6, \"1768867200\": 2, \"1768953600\": 4, \"1769040000\": 1, \"1769212800\": 1, \"1769299200\": 2, \"1769385600\": 3, \"1769472000\": 1, \"1769558400\": 1, \"1769817600\": 4, \"1769904000\": 1, \"1770595200\": 1, \"1770681600\": 4, \"1770768000\": 3, \"1770854400\": 1, \"1771027200\": 1, \"1771200000\": 1, \"1771286400\": 3, \"1771372800\": 1, \"1771459200\": 4, \"1771545600\": 2, \"1771632000\": 5, \"1771718400\": 2, \"1771804800\": 2, \"1771891200\": 1, \"1771977600\": 4, \"1772064000\": 2, \"1772150400\": 7, \"1772236800\": 12, \"1772323200\": 2, \"1772409600\": 3, \"1772496000\": 5, \"1772582400\": 1, \"1772668800\": 1, \"1772755200\": 1, \"1772841600\": 3, \"1749513600\": 1, \"1749600000\": 2, \"1750896000\": 1, \"1751414400\": 2, \"1751500800\": 2, \"1751673600\": 1, \"1762214400\": 6, \"1762300800\": 8, \"1762387200\": 6, \"1762473600\": 4, \"1762560000\": 5, \"1762646400\": 1, \"1762732800\": 7, \"1762819200\": 4, \"1762905600\": 8, \"1762992000\": 1, \"1763078400\": 3, \"1763164800\": 7, \"1763251200\": 3, \"1763337600\": 5, \"1763424000\": 2, \"1763510400\": 1, \"1763596800\": 1, \"1763683200\": 1, \"1764028800\": 1, \"1764115200\": 4, \"1764201600\": 1, \"1764460800\": 1, \"1764547200\": 8, \"1764633600\": 2, \"1764720000\": 2, \"1764892800\": 1, \"1765065600\": 3, \"1765152000\": 7, \"1765238400\": 7, \"1765324800\": 8, \"1765411200\": 5, \"1765497600\": 4, \"1765584000\": 8, \"1765670400\": 10, \"1765756800\": 1, \"1765843200\": 5, \"1765929600\": 1, \"1766016000\": 1, \"1766102400\": 1, \"1766188800\": 1, \"1766275200\": 1, \"1766361600\": 1, \"1766448000\": 4, \"1766534400\": 3, \"1766620800\": 1, \"1766793600\": 1, \"1766880000\": 1, \"1766966400\": 2, \"1767052800\": 3, \"1767139200\": 5}",
+    "content": "LeetCode Profile Summary for @amannkumar\n\nProfile:\nProfile:\n  - realName: amannkumar\n  - ranking: 661660\n\nSolved / Submission Stats:\n  - All: solved=221, submissions=339\n  - Easy: solved=109, submissions=162\n  - Medium: solved=99, submissions=154\n  - Hard: solved=13, submissions=23\n\nContest Rankings:\n  - rating: 1500.1728983881324\n  - globalRanking: 370079\n  - attendedContestsCount: 10\n  - topPercentage: 43.99\n  - totalParticipants: 850439\n\nBadges:\n  - 50 Days Badge 2026\n  - 50 Days Badge 2025\n\nRecent Accepted Submissions (last 20):\n  - [1773368251] Sort Array By Parity (cpp)  →  https://leetcode.com/problems/sort-array-by-parity/\n  - [1773278980] Rearrange Array Elements by Sign (cpp)  →  https://leetcode.com/problems/rearrange-array-elements-by-sign/\n  - [1773277974] Max Consecutive Ones (cpp)  →  https://leetcode.com/problems/max-consecutive-ones/\n  - [1773237706] Check if Array Is Sorted and Rotated (cpp)  →  https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/\n  - [1773193821] Unique Binary Search Trees (cpp)  →  https://leetcode.com/problems/unique-binary-search-trees/\n  - [1773193071] Find Mode in Binary Search Tree (cpp)  →  https://leetcode.com/problems/find-mode-in-binary-search-tree/\n  - [1773192589] Keyboard Row (cpp)  →  https://leetcode.com/problems/keyboard-row/\n  - [1773181893] Remove All Adjacent Duplicates In String (cpp)  →  https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/\n  - [1773181734] Minimum Distance Between BST Nodes (cpp)  →  https://leetcode.com/problems/minimum-distance-between-bst-nodes/\n  - [1773180039] Third Maximum Number (cpp)  →  https://leetcode.com/problems/third-maximum-number/\n  - [1773172451] Binary Tree Maximum Path Sum (cpp)  →  https://leetcode.com/problems/binary-tree-maximum-path-sum/\n  - [1773171761] Diameter of Binary Tree (cpp)  →  https://leetcode.com/problems/diameter-of-binary-tree/\n  - [1773169192] Repeated Substring Pattern (cpp)  →  https://leetcode.com/problems/repeated-substring-pattern/\n  - [1773091487] Increasing Order Search Tree (cpp)  →  https://leetcode.com/problems/increasing-order-search-tree/\n  - [1773090762] Robot Return to Origin (cpp)  →  https://leetcode.com/problems/robot-return-to-origin/\n  - [1773090434] Merge Two Binary Trees (cpp)  →  https://leetcode.com/problems/merge-two-binary-trees/\n  - [1772859397] Two Sum IV - Input is a BST (cpp)  →  https://leetcode.com/problems/two-sum-iv-input-is-a-bst/\n  - [1772858858] Average of Levels in Binary Tree (cpp)  →  https://leetcode.com/problems/average-of-levels-in-binary-tree/\n  - [1772858126] Reverse Words in a String III (cpp)  →  https://leetcode.com/problems/reverse-words-in-a-string-iii/\n  - [1772828758] Shortest Distance to a Character (cpp)  →  https://leetcode.com/problems/shortest-distance-to-a-character/\n\nSubmission calendar (raw JSON string):\n{\"1767225600\": 3, \"1767312000\": 12, \"1767398400\": 3, \"1767484800\": 2, \"1767571200\": 6, \"1767657600\": 1, \"1767744000\": 3, \"1767830400\": 3, \"1767916800\": 1, \"1768003200\": 1, \"1768089600\": 5, \"1768176000\": 3, \"1768262400\": 2, \"1768348800\": 8, \"1768435200\": 1, \"1768521600\": 1, \"1768694400\": 6, \"1768867200\": 2, \"1768953600\": 4, \"1769040000\": 1, \"1769212800\": 1, \"1769299200\": 2, \"1769385600\": 3, \"1769472000\": 1, \"1769558400\": 1, \"1769817600\": 4, \"1769904000\": 1, \"1770595200\": 1, \"1770681600\": 4, \"1770768000\": 3, \"1770854400\": 1, \"1771027200\": 1, \"1771200000\": 1, \"1771286400\": 3, \"1771372800\": 1, \"1771459200\": 4, \"1771545600\": 2, \"1771632000\": 5, \"1771718400\": 2, \"1771804800\": 2, \"1771891200\": 1, \"1771977600\": 4, \"1772064000\": 2, \"1772150400\": 7, \"1772236800\": 12, \"1772323200\": 2, \"1772409600\": 3, \"1772496000\": 5, \"1772582400\": 1, \"1772668800\": 1, \"1772755200\": 1, \"1772841600\": 3, \"1773014400\": 3, \"1773100800\": 11, \"1773187200\": 6, \"1773273600\": 5, \"1773360000\": 1, \"1749513600\": 1, \"1749600000\": 2, \"1750896000\": 1, \"1751414400\": 2, \"1751500800\": 2, \"1751673600\": 1, \"1762214400\": 6, \"1762300800\": 8, \"1762387200\": 6, \"1762473600\": 4, \"1762560000\": 5, \"1762646400\": 1, \"1762732800\": 7, \"1762819200\": 4, \"1762905600\": 8, \"1762992000\": 1, \"1763078400\": 3, \"1763164800\": 7, \"1763251200\": 3, \"1763337600\": 5, \"1763424000\": 2, \"1763510400\": 1, \"1763596800\": 1, \"1763683200\": 1, \"1764028800\": 1, \"1764115200\": 4, \"1764201600\": 1, \"1764460800\": 1, \"1764547200\": 8, \"1764633600\": 2, \"1764720000\": 2, \"1764892800\": 1, \"1765065600\": 3, \"1765152000\": 7, \"1765238400\": 7, \"1765324800\": 8, \"1765411200\": 5, \"1765497600\": 4, \"1765584000\": 8, \"1765670400\": 10, \"1765756800\": 1, \"1765843200\": 5, \"1765929600\": 1, \"1766016000\": 1, \"1766102400\": 1, \"1766188800\": 1, \"1766275200\": 1, \"1766361600\": 1, \"1766448000\": 4, \"1766534400\": 3, \"1766620800\": 1, \"1766793600\": 1, \"1766880000\": 1, \"1766966400\": 2, \"1767052800\": 3, \"1767139200\": 5}",
     "metadata": {
       "source": "https://leetcode.com/u/amannkumar/",
       "source_type": "leetcode_profile",
@@ -271,134 +271,122 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 1/11]\n\nAman Kumar\n♂phone(514) 943-6119 /envel⌢peamannkumar3895@gmail.com/linkedinlinkedin.com/aamankumar/githubgithub.com/amannkumarὋCamankumar.dev\nEducation\nConcordia University Sep 2023 – Sep 2025\nMaster of Engineering- Software Engineering Montreal, Canada\nWork Experience\nBombardier Sep 2024 – May 2025\nSoftware Engineer Intern – Backend & Cloud Canada\n• Engineered aproduction-grade distributed serviceusingAWS CDK (TypeScript)andJava Lambda function,\nautomating internal workflow orchestration across3 teamsand scaling to support6M+ transactions per day.\n• LaunchedAWS CloudWatchobservability dashboards adopted by cross-functional operations teams, cutting\ninfrastructure costs by$8K+ monthlyand eliminating80+ hoursof manual monitoring effort per week.\n• Designed anevent-driven distributed architec",
+    "content": "[From Resume — chunk 1/10]\n\nAman Kumar\n♂phone(514) 943-6119 /envel⌢peamannkumar3895@gmail.com/linkedinlinkedin.com/aamankumar/githubgithub.com/amannkumarὋCamankumar.dev\nEducation\nConcordia University Sep 2023 – Sep 2025\nMaster of Engineering- Software Engineering Montreal, Canada\nWork Experience\nBombardier Sep 2024 – May 2025\nSoftware Engineer Intern – Backend & Cloud Canada\n• Engineered aproduction-grade distributed serviceusingAWS CDK (TypeScript)andJava Lambda function,\nautomating internal workflow orchestration across3 teamsand scaling to support6M+ transactions per day.\n• LaunchedAWS CloudWatchobservability dashboards adopted by cross-functional operations teams, cutting\ninfrastructure costs by$8K+ monthlyand eliminating80+ hoursof manual monitoring effort per week.\n• Designed anevent-driven distributed architec",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 1,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 2/11]\n\ninating80+ hoursof manual monitoring effort per week.\n• Designed anevent-driven distributed architectureconnectingAWS SNSandSQSto internal services, processing\n40M+ events daily. Persisted artifacts inAmazon S3, reducing end-to-end processing latency by25%and improving\nfault tolerance across downstream systems.\n• Developed backend services for a criticalbanking platform used by BanksusingJava, Spring Boot, and\nmicroservices architectureto deliver scalable internal banking APIs.\n• DesignedRESTful APIsfor transaction processing and CRUD operations onMySQL databases, ensuring secure\ndata flow across banking modules.\n• Migrated legacy services to a modernSpring Boot microservices architectureand implemented CI/CD pipelines\nusingAzure DevOps.\nRaintree Systems Inc May 2021 – Sep 2022\nBackend Sof",
+    "content": "[From Resume — chunk 2/10]\n\ninating80+ hoursof manual monitoring effort per week.\n• Designed anevent-driven distributed architectureconnectingAWS SNSandSQSto internal services, processing\n40M+ events daily. Persisted artifacts inAmazon S3, reducing end-to-end processing latency by25%and improving\nfault tolerance across downstream systems.\n• Developed backend services for a criticalbanking platform used by BanksusingJava, Spring Boot, and\nmicroservices architectureto deliver scalable internal banking APIs.\n• DesignedRESTful APIsfor transaction processing and CRUD operations onMySQL databases, ensuring secure\ndata flow across banking modules.\n• Migrated legacy services to a modernSpring Boot microservices architectureand implemented CI/CD pipelines\nusingAzure DevOps.\nRaintree Systems Inc May 2021 – Sep 2022\nBackend Sof",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 2,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 3/11]\n\nimplemented CI/CD pipelines\nusingAzure DevOps.\nRaintree Systems Inc May 2021 – Sep 2022\nBackend Software Engineer India\n• Built and maintained distributedSpring Boot microserviceswithHibernate/JPAfor ORM, designing15+\nRESTful APIsandGraphQL endpoints, achieving a65% reductionin query execution time.\n• Designed30+ AWS Lambda functionswith sharedLambda layersfor cross-service reuse, increasing processing\nspeed by35%and reusability by52%, resulting in$1,000cost savings per large-scale deployment.\n• ContainerizedSpring Boot applicationsusingDockerand orchestrated deployments onAWS EC2viaNode.js\nCI/CD scripts, reducing deployment time by40%and achieving99.9% uptimeacross production services.\n• Implemented15+ serverless workflowsusingAWS Step Functionswith REST API integrations, enabling reliab",
+    "content": "[From Resume — chunk 3/10]\n\nimplemented CI/CD pipelines\nusingAzure DevOps.\nRaintree Systems Inc May 2021 – Sep 2022\nBackend Software Engineer India\n• Built and maintained distributedSpring Boot microserviceswithHibernate/JPAfor ORM, designing15+\nRESTful APIsandGraphQL endpoints, achieving a65% reductionin query execution time.\n• Designed30+ AWS Lambda functionswith sharedLambda layersfor cross-service reuse, increasing processing\nspeed by35%and reusability by52%, resulting in$1,000cost savings per large-scale deployment.\n• ContainerizedSpring Boot applicationsusingDockerand orchestrated deployments onAWS EC2viaNode.js\nCI/CD scripts, reducing deployment time by40%and achieving99.9% uptimeacross production services.\n• Implemented15+ serverless workflowsusingAWS Step Functionswith REST API integrations, enabling reliab",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 3,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 4/11]\n\nmplemented15+ serverless workflowsusingAWS Step Functionswith REST API integrations, enabling reliable\norchestration across5+ backend microservicesand eliminating manual handoff errors.\n• Delivered end-to-end backend development ofSpring Boot microservicesand REST APIs integrated with\nPostgreSQL, reducing project delivery time by15%.\n• Achieved98% unit test pass rateusingJUnit and Mockito, improving reliability of large-scale codebases.\n• Diagnosed and resolved production defects across distributed systems, reducing downtime by20%.\n• Collaborated with stakeholders and engineers inAgile ceremoniesto deliver scalable enterprise solutions.\n• Spearheaded backend development forEpayrent(150K+ Play Store downloads), building secureSpring Boot\nmicroservicesand REST APIs that improved system respo",
+    "content": "[From Resume — chunk 4/10]\n\nmplemented15+ serverless workflowsusingAWS Step Functionswith REST API integrations, enabling reliable\norchestration across5+ backend microservicesand eliminating manual handoff errors.\n• Delivered end-to-end backend development ofSpring Boot microservicesand REST APIs integrated with\nPostgreSQL, reducing project delivery time by15%.\n• Achieved98% unit test pass rateusingJUnit and Mockito, improving reliability of large-scale codebases.\n• Diagnosed and resolved production defects across distributed systems, reducing downtime by20%.\n• Collaborated with stakeholders and engineers inAgile ceremoniesto deliver scalable enterprise solutions.\n• Spearheaded backend development forEpayrent(150K+ Play Store downloads), building secureSpring Boot\nmicroservicesand REST APIs that improved system respo",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 4,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 5/11]\n\ny Store downloads), building secureSpring Boot\nmicroservicesand REST APIs that improved system response time by20%and increased user engagement by30%.\n• ImplementedJWT-based authenticationwith Spring Security and designed a centralized logging framework, reducing\ndebugging time by25%while improving API monitoring and reliability.\n• Mentored junior developers inSpring Boot and microservices architectureand collaborated inAgile sprintsto\ndeliver production-ready features.\nV. Milak Enterprise Jan 2021 – Apr 2021\nSoftware Engineer Intern India\n• Replaced a monolithic, manually-triggered ERP system with aSpring Boot serverless architectureon AWS,\ndeveloping10+ Lambda functionsand Step Function workflows that cut execution time from∼50 min to∼30 min\n(40% faster), generating$3K savingsper deploym",
+    "content": "[From Resume — chunk 5/10]\n\ny Store downloads), building secureSpring Boot\nmicroservicesand REST APIs that improved system response time by20%and increased user engagement by30%.\n• ImplementedJWT-based authenticationwith Spring Security and designed a centralized logging framework, reducing\ndebugging time by25%while improving API monitoring and reliability.\n• Mentored junior developers inSpring Boot and microservices architectureand collaborated inAgile sprintsto\ndeliver production-ready features.\nV. Milak Enterprise Jan 2021 – Apr 2021\nSoftware Engineer Intern India\n• Replaced a monolithic, manually-triggered ERP system with aSpring Boot serverless architectureon AWS,\ndeveloping10+ Lambda functionsand Step Function workflows that cut execution time from∼50 min to∼30 min\n(40% faster), generating$3K savingsper deploym",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 5,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 6/11]\n\nrkflows that cut execution time from∼50 min to∼30 min\n(40% faster), generating$3K savingsper deployment.\n• Designed and deployed a scalableSpring Boot applicationwithPostgreSQLandMongoDBfor hybrid relational\n/document data storage, containerized onAWS EC2, serving real-time ERP data to15+ internal stakeholderswith\nzero reported downtime.\n\n• Developed and maintainedSpring Boot REST APIsenabling integration between internal services and client\napplications.\n• DesignedMongoDB schemasfor complex unstructured data, improving query performance by20%.\n• Built containerized microservices usingDockerand implemented unit tests usingJUnit.\nProjects\nAI-Powered Developer Portfolio|WebsiteNextJS|TypeScript|Spring Boot|Grok API|AWS\n• Built a full-stack AI-powered portfolio with aSpring Boot microservices",
+    "content": "[From Resume — chunk 6/10]\n\nrkflows that cut execution time from∼50 min to∼30 min\n(40% faster), generating$3K savingsper deployment.\n• Designed and deployed a scalableSpring Boot applicationwithPostgreSQLandMongoDBfor hybrid relational\n/document data storage, containerized onAWS EC2, serving real-time ERP data to15+ internal stakeholderswith\nzero reported downtime.\n\n• Developed and maintainedSpring Boot REST APIsenabling integration between internal services and client\napplications.\n• DesignedMongoDB schemasfor complex unstructured data, improving query performance by20%.\n• Built containerized microservices usingDockerand implemented unit tests usingJUnit.\nProjects\nAI-Powered Developer Portfolio|WebsiteNextJS|TypeScript|Spring Boot|Grok API|AWS\n• Built a full-stack AI-powered portfolio with aSpring Boot microservices",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 6,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 7/11]\n\nt|Spring Boot|Grok API|AWS\n• Built a full-stack AI-powered portfolio with aSpring Boot microservices backendonAWS, integratingSupabase\n(PostgreSQL)andPrisma ORMfor secure real-time data sync with GitHub, Notion, and LeetCode, driving1,000+\nvisitsand reducing recruiter screening time by50%.\nHealthPal|Website|Source CodeTensorFlow|Spring Boot|Flutter\n• Built a full-stack virtual care platform combiningAI-driven health guidance,sentiment-aware TTS therapy, and\ngeolocated clinic discovery, integratingTensorFlow modelswith aSpring Boot GraphQL APIandFlutter\nfrontend, improving patient engagement by40%and reducing care workflow latency by30%.\nBank Bridge Jun 2024 – Sep 2024\n• Built a financial services platform usingReact, Spring Boot, and MongoDBenabling real-time transaction\nmonitoring and exp",
+    "content": "[From Resume — chunk 7/10]\n\nt|Spring Boot|Grok API|AWS\n• Built a full-stack AI-powered portfolio with aSpring Boot microservices backendonAWS, integratingSupabase\n(PostgreSQL)andPrisma ORMfor secure real-time data sync with GitHub, Notion, and LeetCode, driving1,000+\nvisitsand reducing recruiter screening time by50%.\n• Deployed globally viaVercel CI/CD pipelineintegrated with GitHub.\nHealthPal|Website|Source CodeTensorFlow|Spring Boot|Flutter\n• Built a full-stack virtual care platform combiningAI-driven health guidance,sentiment-aware TTS therapy, and\ngeolocated clinic discovery, integratingTensorFlow modelswith aSpring Boot GraphQL APIandFlutter\nfrontend, improving patient engagement by40%and reducing care workflow latency by30%.\nBank Bridge Jun 2024 – Sep 2024\n• Built a financial services platform usingReact, Sprin",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 7,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 8/11]\n\nvices platform usingReact, Spring Boot, and MongoDBenabling real-time transaction\nmonitoring and expense insights.\n• IntegratedPlaid APIfor secure bank account connectivity and designed REST APIs for reliable transaction data\nprocessing.\nJira Voice Assistant Chrome Extension Jan 2024 – Apr 2024\n• Developed aChrome extension using React and WebKit Speech Recognitionenabling voice-controlled\ninteraction with Jira for task management.\n• Integrated Jira APIs to automate story creation and workflow updates, improving productivity in project management\ntasks.\nCalorie Scanner (AI Health App) Jun 2025 – Jul 2025\n• Built a nutrition analysis platform usingReact, Spring Boot, and OpenAI APIsto scan food labels and generate\npersonalized health recommendations.\n• Hosted backend services onAWS EC2, sto",
+    "content": "[From Resume — chunk 8/10]\n\ntency by30%.\nBank Bridge Jun 2024 – Sep 2024\n• Built a financial services platform usingReact, Spring Boot, and MongoDBenabling real-time transaction\nmonitoring and expense insights.\n• IntegratedPlaid APIfor secure bank account connectivity and designed REST APIs for reliable transaction data\nprocessing.\nJira Voice Assistant Chrome Extension Jan 2024 – Apr 2024\n• Developed aChrome extension using React and WebKit Speech Recognitionenabling voice-controlled\ninteraction with Jira for task management.\n• Integrated Jira APIs to automate story creation and workflow updates, improving productivity in project management\ntasks.\nCalorie Scanner (AI Health App) Jun 2025 – Jul 2025\n• Built a nutrition analysis platform usingReact, Spring Boot, and OpenAI APIsto scan food labels and generate\npersonali",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 8,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 9/11]\n\nod labels and generate\npersonalized health recommendations.\n• Hosted backend services onAWS EC2, stored images inAWS S3, and managed data withMongoDB.\nPersonal Portfolio Website Jul 2024 – Aug 2024\n• Developed a responsive developer portfolio usingNext.js and Tailwind CSSwith SEO optimization and dynamic\nrouting.\n• Deployed globally viaVercel CI/CD pipelineintegrated with GitHub.\nLeadership Experience\nTechnical Mentor & Initiative Lead Raintree Systems Inc\n• Accelerated team delivery capacity by mentoring2 software engineering internsover4 months, cutting onboarding\ntime from8 weeks to∼5 weeks (35% faster)through structured backend training inSpring Boot,microservices,\nanddistributed systems design- enabling interns to contribute to sprint cycles2 weeks ahead of schedule.\n• Designed weekly",
+    "content": "[From Resume — chunk 9/10]\n\nanalysis platform usingReact, Spring Boot, and OpenAI APIsto scan food labels and generate\npersonalized health recommendations.\n• Hosted backend services onAWS EC2, stored images inAWS S3, and managed data withMongoDB.Leadership Experience\nTechnical Mentor & Initiative Lead Raintree Systems Inc\n∗Accelerated team delivery capacity by mentoring2 software engineering internsover4 months, cutting onboarding\ntime from8 weeks to∼5 weeks (35% faster)through structured backend training inSpring Boot,microservices,\nanddistributed systems design- enabling interns to contribute to sprint cycles2 weeks ahead of schedule.\n∗Designed weekly learning modules coveringSpring Boot,microservices architecture, andREST API design,\nenabling interns to independently deliver6+ production-ready features(including a",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 9,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   },
   {
     "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 10/11]\n\ndesign- enabling interns to contribute to sprint cycles2 weeks ahead of schedule.\n• Designed weekly learning modules coveringSpring Boot,microservices architecture, andREST API design,\nenabling interns to independently deliver6+ production-ready features(including a reporting API and async\nnotification service) within their first60 days, contributing directly to aQ3 product release milestone.\nTechnical Skills\nLanguages: Java, Python, JavaScript, TypeScript, SQL, HTML5, CSS, C\nDeveloper Tools: AWS, Postman, Git, Docker, Prisma, Supabase, Google Cloud Platform, Firebase, PowerBI, Azure\nLibraries/Frameworks: Spring Boot, React.js, Next.js, React Native, Expo, PostgreSQL, VueJS, Flutter\nGenerative AI: LangChain, Hugging Face, OpenAI APIs, LlamaIndex, VectorDBs, Ollama, Prompt- Context Enginee",
+    "content": "[From Resume — chunk 10/10]\n\nndREST API design,\nenabling interns to independently deliver6+ production-ready features(including a reporting API and async\nnotification service) within their first60 days, contributing directly to aQ3 product release milestone.\nTechnical Skills\nLanguages: Java, Python, JavaScript, TypeScript, SQL, HTML5, CSS, C\nDeveloper Tools: AWS, Postman, Git, Docker, Prisma, Supabase, Google Cloud Platform, Firebase, PowerBI, Azure\nLibraries/Frameworks: Spring Boot, React.js, Next.js, React Native, Expo, PostgreSQL, VueJS, Flutter\nGenerative AI: LangChain, Hugging Face, OpenAI APIs, LlamaIndex, VectorDBs, Ollama, Prompt- Context Engineering",
     "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
+      "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
+      "filename": "resume.pdf",
+      "label": "Resume",
       "chunk": 10,
-      "total_chunks": 11
-    }
-  },
-  {
-    "source": "pdf",
-    "content": "[From Resume Personal Web — chunk 11/11]\n\nive AI: LangChain, Hugging Face, OpenAI APIs, LlamaIndex, VectorDBs, Ollama, Prompt- Context Engineering",
-    "metadata": {
-      "source": "file://data/pdfs/resume-personal-web.pdf",
-      "source_type": "pdf",
-      "filename": "resume-personal-web.pdf",
-      "label": "Resume Personal Web",
-      "chunk": 11,
-      "total_chunks": 11
+      "total_chunks": 10
     }
   }
 ]
