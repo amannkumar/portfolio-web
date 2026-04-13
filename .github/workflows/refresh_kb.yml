@@ -2,8 +2,8 @@ name: Refresh Knowledge Base
 
 on:
   schedule:
-    - cron: "0 2 * * 1" # every Monday at 2am UTC
-  workflow_dispatch: # also allows manual trigger from GitHub UI
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
 
 jobs:
   refresh:
@@ -25,7 +25,7 @@ jobs:
       - name: Build knowledge base
         run: cd backend && python build_knowledge_base.py
         env:
-          GITHUB_USERNAME: ${{ vars.GITHUB_USERNAME }}
+          GITHUB_USERNAME: ${{ vars.GH_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           LEETCODE_USERNAME: ${{ vars.LEETCODE_USERNAME }}
 
@@ -33,6 +33,7 @@ jobs:
         run: |
           git config user.email "actions@github.com"
           git config user.name "github-actions[bot]"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/amannkumar/portfolio-web.git
           git add backend/data/knowledge_base.json
           git diff --cached --quiet || git commit -m "chore: refresh knowledge base"
           git push
