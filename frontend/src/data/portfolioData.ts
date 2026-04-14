@@ -85,7 +85,7 @@ export const socialLinks = {
 export const aboutMe = {
   name: "Aman Kumar",
   jobRole: "Software Engineer",
-  experience: "2+ years",
+  experience: "5+ years",
   address: "Montreal, Canada",
   bio: `Software Engineer with a Master’s degree in Software Engineering from Concordia University and industry experience at Bombardier.
 
@@ -128,7 +128,7 @@ export const experiences = [
   },
 
   {
-    date: "Jun 2021 - Sep 2022",
+    date: "May 2020 - Sep 2023",
     title: "Full Stack Engineer",
     company: "Raintree Systems Inc",
     link: "#",
@@ -143,7 +143,7 @@ export const experiences = [
   },
 
   {
-    date: "Jan 2021 - May 2021",
+    date: "Jan 2020 - April 2020",
     title: "Software Engineering Intern",
     company: "V.Milak Enterprise",
     link: "#",
