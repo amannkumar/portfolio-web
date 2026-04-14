@@ -8,7 +8,7 @@ export const personalInfo = {
   currentRole: "Backend Engineer",
   currentCompany: "Mercor",
   location: "Toronto, Canada",
-  totalExperience: "Nearly 2 years",
+  totalExperience: "Nearly 5 years",
   projectsCompleted: "25+",
   greeting: "Hello!",
 };
@@ -22,7 +22,7 @@ export const roles = [
 
 export const tagline = {
   primary: "MEng @ Concordia | Prev @ Bombardier",
-  secondary: "With over 2 years of experience",
+  secondary: "With over 5 years of experience",
 };
 
 export const skills = [

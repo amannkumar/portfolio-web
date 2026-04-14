@@ -28,7 +28,7 @@ const Resume = ({ onViewResume }: ResumeProps) => {
             My <span className="gradient-text">Resume</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Software Engineer with 2+ years of experience building scalable
+            Software Engineer with 5+ years of experience building scalable
             backend systems, microservices, and cloud-native applications using
             Java, Spring Boot, and AWS.
           </p>
