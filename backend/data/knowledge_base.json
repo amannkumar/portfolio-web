@@ -1,277 +1,7 @@
 [
   {
-    "source": "github_profile",
-    "content": "GitHub Profile Summary for @amannkumar\n\nProfile:\n  - name: Aman Kumar\n  - public_repos: 23\n\nTotal public repos (non-fork): 21\nLanguages used: C++, Dart, Java, TypeScript, JavaScript\n\nRecent Commits (last 31):\n  - [2026-03-17] amannkumar/portfolio-web: feat: add Microsoft Clarity analytics\n  - [2026-03-17] amannkumar/portfolio-web: feat: added microsoft analytics. updated knowledge base and cv link\n  - [2026-03-14] amannkumar/portfolio-web: feat: added auto update for knowledge base\n  - [2026-03-14] amannkumar/portfolio-web: updated knowledge base\n  - [2026-03-09] amannkumar/portfolio-web: fix: added 6 fallback model to avoid rate limit\n  - [2026-01-26] amannkumar/DSA-Replay: added array questions\n  - [2026-01-26] amannkumar/DSA-Replay: array questions commit\n  - [2026-01-22] amannkumar/DSA-Replay: Refactor containsDuplicate function and update doc\n  - [2026-01-22] amannkumar/DSA-Replay: contains duplicate code\n  - [2026-01-21] amannkumar/DSA-Replay: Fix time complexity notation for DSU algorithm\n  - [2025-08-10] amannkumar/GammaFunction: Merge remote-tracking branch 'origin/master'\n  - [2025-08-10] amannkumar/GammaFunction: D3 added sonarcube changes\n  - [2025-08-09] amannkumar/GammaFunction: Update README.md\n  - [2025-08-09] amannkumar/GammaFunction: Update README.md\n  - [2025-08-09] amannkumar/GammaFunction: Merge remote-tracking branch 'origin/master'\n  - [2025-04-11] amannkumar/CodeWarzone: Merge remote-tracking branch 'origin/build3dev' into build3dev\n  - [2025-04-11] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-11] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-06] amannkumar/CodeWarzone: added bug fixes\n  - [2025-04-06] amannkumar/CodeWarzone: added bug fixes",
-    "metadata": {
-      "source": "https://github.com/amannkumar",
-      "source_type": "github_profile",
-      "username": "amannkumar"
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: portfolio-web\n  URL:         https://github.com/amannkumar/portfolio-web\n  Description: \n  Language:    TypeScript\n  Stars:       0  |  Forks: 0\n  Last pushed: 2026-03-17",
-    "metadata": {
-      "source": "https://github.com/amannkumar/portfolio-web",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "portfolio-web",
-      "language": "TypeScript",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: cadera\n  URL:         https://github.com/amannkumar/cadera\n  Description: \n  Language:    N/A\n  Stars:       0  |  Forks: 0\n  Last pushed: 2026-02-17",
-    "metadata": {
-      "source": "https://github.com/amannkumar/cadera",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "cadera",
-      "language": "N/A",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: OneClickApply\n  URL:         https://github.com/amannkumar/OneClickApply\n  Description: Built a Chrome extension that auto-fills job application forms using resume data. Supports dynamic resume parsing by allowing initial resume upload and mapping fields to job portals, significantly reducing manual application time.\n  Language:    N/A\n  Stars:       0  |  Forks: 0\n  Last pushed: 2026-02-17",
-    "metadata": {
-      "source": "https://github.com/amannkumar/OneClickApply",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "OneClickApply",
-      "language": "N/A",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: DSA-Replay\n  URL:         https://github.com/amannkumar/DSA-Replay\n  Description: My explanation/solutions for neetcode 150\n  Language:    N/A\n  Stars:       0  |  Forks: 0\n  Last pushed: 2026-01-26\n\n  README (excerpt):\n    # NeetCode-150\n    My explanation/solutions for neetcode 150",
-    "metadata": {
-      "source": "https://github.com/amannkumar/DSA-Replay",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "DSA-Replay",
-      "language": "N/A",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: GammaFunction\n  URL:         https://github.com/amannkumar/GammaFunction\n  Description: \n  Language:    Java\n  Stars:       0  |  Forks: 0\n  Last pushed: 2025-08-12\n\n  README (excerpt):\n    SOEN 6011 – Deliverables D1–D3\n    Function F4 – Gamma Function (Γ(x))\n    Author: Aman Kumar\n    \n    --------------------------------------\n    1. INTRODUCTION\n    --------------------------------------\n    This project implements the Gamma function Γ(x) in Java using the Lanczos approximation. \n    It supports real numbers, including negative non-integers, and follows mathematical \n    properties.\n    \n    --------------------------------------\n    2. FEATURES\n    --------------------------------------\n    - Accurate Gamma function computation using Lanczos approximation.\n    - Handles:\n        * Positive real inputs\n        * Negative non-integer inputs vi",
-    "metadata": {
-      "source": "https://github.com/amannkumar/GammaFunction",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "GammaFunction",
-      "language": "Java",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: CodeWarzone\n  URL:         https://github.com/amannkumar/CodeWarzone\n  Description: \n  Language:    Java\n  Stars:       0  |  Forks: 0\n  Last pushed: 2025-04-12\n\n  README (excerpt):\n    # CodeWarzone\n    SOEN - 6441: Winter 2025 Project\n    \n    - Shivansh Gupta\n    - Aman Kumar\n    - Md Ariful Hossain\n    - Nadia Tasnim Mim",
-    "metadata": {
-      "source": "https://github.com/amannkumar/CodeWarzone",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "CodeWarzone",
-      "language": "Java",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: time_chat\n  URL:         https://github.com/amannkumar/time_chat\n  Description: \n  Language:    C++\n  Stars:       0  |  Forks: 0\n  Last pushed: 2025-01-15\n\n  README (excerpt):\n    # time_chat\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is a starting point for a Flutter application.\n    \n    A few resources to get you started if this is your first Flutter project:\n    \n    - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n    - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n    \n    For help getting started with Flutter development, view the\n    [online documentation](https://docs.flutter.dev/), which offers tutorials,\n    samples, guidance on mobile development, and a full API reference.",
-    "metadata": {
-      "source": "https://github.com/amannkumar/time_chat",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "time_chat",
-      "language": "C++",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: Weekly-Journal\n  URL:         https://github.com/amannkumar/Weekly-Journal\n  Description: \n  Language:    N/A\n  Stars:       0  |  Forks: 0\n  Last pushed: 2024-04-14\n\n  README (excerpt):\n    Learning Journal Template  \n    \n     \n    \n    Student Name: Aman Kumar \n    \n    Course: SOEN 6841 Software Project management \n    \n    Journal URL: https://github.com/amannkumar/Weekly-Journal/blob/main/README.md \n    \n     \n    \n    Week 1: Jan 18-Jan 27 \n    \n    Date: 27 Jan 2024 \n    \n     \n    \n    Key Concepts Learned: Started learning backend development in NodeJS which is based on JavaScript language. Started off with covering basics in the programming language to working on OS paths, http modules and learning about sync vs async programming, \n    \n     \n    \n    Application in Real Projects: The learnings would help me become a better software developer by understand",
-    "metadata": {
-      "source": "https://github.com/amannkumar/Weekly-Journal",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "Weekly-Journal",
-      "language": "N/A",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: node_basics\n  URL:         https://github.com/amannkumar/node_basics\n  Description: \n  Language:    JavaScript\n  Stars:       0  |  Forks: 0\n  Last pushed: 2024-01-30",
-    "metadata": {
-      "source": "https://github.com/amannkumar/node_basics",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "node_basics",
-      "language": "JavaScript",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: exercise_app\n  URL:         https://github.com/amannkumar/exercise_app\n  Description: \n  Language:    C++\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-03-25\n\n  README (excerpt):\n    # Exercise App\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is a starting point for a Flutter application.\n    \n    A few resources to get you started if this is your first Flutter project:\n    \n    - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n    - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n    \n    For help getting started with Flutter development, view the\n    [online documentation](https://docs.flutter.dev/), which offers tutorials,\n    samples, guidance on mobile development, and a full API reference.\n    \n    ## DEMO\n    ![demo](https://user-images.githubus",
-    "metadata": {
-      "source": "https://github.com/amannkumar/exercise_app",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "exercise_app",
-      "language": "C++",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: getx_application\n  URL:         https://github.com/amannkumar/getx_application\n  Description: \n  Language:    C++\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-03-02\n\n  README (excerpt):\n    # getx_application\n    \n    A new Flutter project.\n    \n    ## Implementing the features below:\n    \n     - Creating our Project and adding Getx Pacakages\n     - Get Material App (Why we used Get Material App)\n     - GetX as utilities\n     - GetX Snackbar\n     - Getx Dialog Alert\n     - Getx Bottom Sheet\n     - Getx Change Light & Dark Theme with GetX Flutter\n     - Getx Navigator & Routes (How to pass data between different screens)\n    \n     # Demo\n    \n    ![giphy](https://user-images.githubusercontent.com/113698292/222402968-8490164a-18d7-4dab-993c-5fe419e0aea8.gif)",
-    "metadata": {
-      "source": "https://github.com/amannkumar/getx_application",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "getx_application",
-      "language": "C++",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: workout_application\n  URL:         https://github.com/amannkumar/workout_application\n  Description: \n  Language:    C++\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-02-26\n\n  README (excerpt):\n    # workout_app\n    \n    A new Flutter project.\n    \n    ## Project Overview\n    \n    This project is a workout application for a GetX Flutter application.\n    \n    A few resources to get you started if this is your first Flutter project:\n    \n    ![giphy2](https://user-images.githubusercontent.com/113698292/221420351-4de051ff-253d-4bdf-9abe-8b266881a259.gif)\n    \n    ![giphy1](https://user-images.githubusercontent.com/113698292/221420432-1bff75db-f2f5-4198-8f89-8a786ac148d8.gif)",
-    "metadata": {
-      "source": "https://github.com/amannkumar/workout_application",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "workout_application",
-      "language": "C++",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: video_chat_app\n  URL:         https://github.com/amannkumar/video_chat_app\n  Description: \n  Language:    C++\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-02-22\n\n  README (excerpt):\n    # flutter_application_1\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is a starting point for a Flutter application.\n    \n    A few resources to get you started if this is your first Flutter project:\n    \n    - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n    - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n    \n    For help getting started with Flutter development, view the\n    [online documentation](https://docs.flutter.dev/), which offers tutorials,\n    samples, guidance on mobile development, and a full API reference.",
-    "metadata": {
-      "source": "https://github.com/amannkumar/video_chat_app",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "video_chat_app",
-      "language": "C++",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: amannkumar\n  URL:         https://github.com/amannkumar/amannkumar\n  Description: \n  Language:    N/A\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-02-22\n\n  README (excerpt):\n    ### Hi there 👋 I,m Aman\n    <!--- TODO Add followers when >50\n    a href=\"\">\n      <img align=\"left\" alt=\"Aman's Twitter\" width=\"22px\" src=\"https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg\" />\n    </a>\\-->\n    <img align=\"right\" alt=\"Coding\" width=\"400\" src=\"https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif\">\n    <a href=\"https://www.linkedin.com/in/amank1030/\">\n      <img align=\"left\" alt=\"Aman's Linkdein\" src=\"https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white\" />\n    </a>\n    <!--- TODO Add followers when >50\n    <a href=\"\">\n      <img align=\"left\" alt=",
-    "metadata": {
-      "source": "https://github.com/amannkumar/amannkumar",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "amannkumar",
-      "language": "N/A",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: messenger_app\n  URL:         https://github.com/amannkumar/messenger_app\n  Description: \n  Language:    Dart\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-02-03\n\n  README (excerpt):\n    # messenger application\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is a make a clone of a messenger application using Flutter.\n    \n    # Demo\n    \n    ![messenger_app](https://user-images.githubusercontent.com/113698292/216693594-1e595ad6-7e18-4f6b-9046-83e829a046fb.gif)",
-    "metadata": {
-      "source": "https://github.com/amannkumar/messenger_app",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "messenger_app",
-      "language": "Dart",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: rolling_dice_app\n  URL:         https://github.com/amannkumar/rolling_dice_app\n  Description: \n  Language:    C++\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-02-03\n\n  README (excerpt):\n    # Rolling Dice App\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is for showing basic animation in a Flutter application.\n    For this I have used Curves classes to animate the both the dice.\n    \n    # Curve Classes\n    \n    ![curve_classes_1](https://user-images.githubusercontent.com/113698292/216690290-ea12f624-e6a0-49c3-8dab-5dbc7d20804f.gif)\n    \n    ![curve_classes_2](https://user-images.githubusercontent.com/113698292/216690432-77aae004-cd2a-4589-8caf-466622c0c7f7.gif)\n    \n    \n    # Demo\n    In this case curves.bounceout is being used.\n    \n    ![rolling_dice](https://user-images.githubusercontent.com/113698292/216690811-de",
-    "metadata": {
-      "source": "https://github.com/amannkumar/rolling_dice_app",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "rolling_dice_app",
-      "language": "C++",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: ticket_booking_app\n  URL:         https://github.com/amannkumar/ticket_booking_app\n  Description: \n  Language:    Dart\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-02-03\n\n  README (excerpt):\n    # ticket_booking_app\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is to show frontend build for a Flutter application.\n    \n    # Demo\n    ![ticket_booking_app](https://user-images.githubusercontent.com/113698292/216687272-53f4a3ef-4782-4e37-8545-a9bcb373d05c.gif)",
-    "metadata": {
-      "source": "https://github.com/amannkumar/ticket_booking_app",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "ticket_booking_app",
-      "language": "Dart",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: getx_route_app\n  URL:         https://github.com/amannkumar/getx_route_app\n  Description: \n  Language:    Dart\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-02-03\n\n  README (excerpt):\n    # getx_route_management_demo\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is a consist of a simple UI showing example of route management through GETX.\n    \n    The live Demo of the project is displayed \n    \n    ![getx route management](https://user-images.githubusercontent.com/113698292/216594262-10eefe53-8472-4f11-b5c9-29c87aa7436a.gif)",
-    "metadata": {
-      "source": "https://github.com/amannkumar/getx_route_app",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "getx_route_app",
-      "language": "Dart",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: notesApp\n  URL:         https://github.com/amannkumar/notesApp\n  Description: Created a flask web app to store notes\n  Language:    N/A\n  Stars:       0  |  Forks: 0\n  Last pushed: 2023-01-03",
-    "metadata": {
-      "source": "https://github.com/amannkumar/notesApp",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "notesApp",
-      "language": "N/A",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: Getx_Weather_app\n  URL:         https://github.com/amannkumar/Getx_Weather_app\n  Description: Created a weather application which uses GetX state management\n  Language:    C++\n  Stars:       0  |  Forks: 0\n  Last pushed: 2022-10-13\n\n  README (excerpt):\n    # weather_app\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is a starting point for a Flutter application.\n    \n    A few resources to get you started if this is your first Flutter project:\n    \n    - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)\n    - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)\n    \n    For help getting started with Flutter, view our\n    [online documentation](https://flutter.dev/docs), which offers tutorials,\n    samples, guidance on mobile development, and a full API reference.",
-    "metadata": {
-      "source": "https://github.com/amannkumar/Getx_Weather_app",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "Getx_Weather_app",
-      "language": "C++",
-      "stars": 0
-    }
-  },
-  {
-    "source": "github_repo",
-    "content": "GitHub Repository: first-bloc-app\n  URL:         https://github.com/amannkumar/first-bloc-app\n  Description: Created a counter app which would add, subtract and reset the counter using Bloc state management. Created two stream controllers stateStreamController and EventStreamController. I created stateStreamController so that the app does not build multiple times when the counter is increased and created eventStreamController to separate the UI and logic\n  Language:    C++\n  Stars:       0  |  Forks: 0\n  Last pushed: 2022-10-12\n\n  README (excerpt):\n    # first_bloc_app\n    \n    A new Flutter project.\n    \n    ## Getting Started\n    \n    This project is a starting point for a Flutter application.\n    \n    A few resources to get you started if this is your first Flutter project:\n    \n    - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)\n    - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)\n    \n    For help getting started with Flutter, view our\n    [online documentation](https://flutter.dev/docs), which offers tutorials,\n    samples, guidance on mobile development, and a full API reference.",
-    "metadata": {
-      "source": "https://github.com/amannkumar/first-bloc-app",
-      "source_type": "github_repo",
-      "username": "amannkumar",
-      "repo": "first-bloc-app",
-      "language": "C++",
-      "stars": 0
-    }
-  },
-  {
-    "source": "leetcode_profile",
-    "content": "LeetCode Profile Summary for @amannkumar\n\nProfile:\nProfile:\n  - realName: amannkumar\n  - ranking: 607840\n\nSolved / Submission Stats:\n  - All: solved=240, submissions=364\n  - Easy: solved=122, submissions=179\n  - Medium: solved=103, submissions=158\n  - Hard: solved=15, submissions=27\n\nContest Rankings:\n  - rating: 1497.2827947933408\n  - globalRanking: 385960\n  - attendedContestsCount: 11\n  - topPercentage: 45.05\n  - totalParticipants: 865650\n\nBadges:\n  - 50 Days Badge 2026\n  - 50 Days Badge 2025\n\nRecent Accepted Submissions (last 20):\n  - [1775758915] Sum of Root To Leaf Binary Numbers (java)  →  https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/\n  - [1775517289] Valid Anagram (java)  →  https://leetcode.com/problems/valid-anagram/\n  - [1775516779] Contains Duplicate (java)  →  https://leetcode.com/problems/contains-duplicate/\n  - [1775356603] Mirror Frequency Distance (java)  →  https://leetcode.com/problems/mirror-frequency-distance/\n  - [1775160815] First Unique Character in a String (java)  →  https://leetcode.com/problems/first-unique-character-in-a-string/\n  - [1774915597] Flip Square Submatrix Vertically (cpp)  →  https://leetcode.com/problems/flip-square-submatrix-vertically/\n  - [1774913982] Check if Strings Can be Made Equal With Operations I (cpp)  →  https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/\n  - [1774717487] Special Positions in a Binary Matrix (cpp)  →  https://leetcode.com/problems/special-positions-in-a-binary-matrix/\n  - [1774651330] Matrix Similarity After Cyclic Shifts (cpp)  →  https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/\n  - [1774389826] Complement of Base 10 Integer (cpp)  →  https://leetcode.com/problems/complement-of-base-10-integer/\n  - [1774301909] Determine Whether Matrix Can Be Obtained By Rotation (cpp)  →  https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/\n  - [1774217567] Implement Stack using Queues (java)  →  https://leetcode.com/problems/implement-stack-using-queues/\n  - [1774217512] Implement Queue using Stacks (java)  →  https://leetcode.com/problems/implement-queue-using-stacks/\n  - [1774109926] Binary Gap (cpp)  →  https://leetcode.com/problems/binary-gap/\n  - [1774109424] Uncommon Words from Two Sentences (cpp)  →  https://leetcode.com/problems/uncommon-words-from-two-sentences/\n  - [1773870865] Count Submatrices with Top-Left Element and Sum Less Than k (cpp)  →  https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/\n  - [1773762117] Maximum Sum BST in Binary Tree (cpp)  →  https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/\n  - [1773694478] Construct Binary Search Tree from Preorder Traversal (cpp)  →  https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/\n  - [1773690974] Populating Next Right Pointers in Each Node (cpp)  →  https://leetcode.com/problems/populating-next-right-pointers-in-each-node/\n  - [1773611251] Divisor Game (cpp)  →  https://leetcode.com/problems/divisor-game/\n\nSubmission calendar (raw JSON string):\n{\"1767225600\": 3, \"1767312000\": 12, \"1767398400\": 3, \"1767484800\": 2, \"1767571200\": 6, \"1767657600\": 1, \"1767744000\": 3, \"1767830400\": 3, \"1767916800\": 1, \"1768003200\": 1, \"1768089600\": 5, \"1768176000\": 3, \"1768262400\": 2, \"1768348800\": 8, \"1768435200\": 1, \"1768521600\": 1, \"1768694400\": 6, \"1768867200\": 2, \"1768953600\": 4, \"1769040000\": 1, \"1769212800\": 1, \"1769299200\": 2, \"1769385600\": 3, \"1769472000\": 1, \"1769558400\": 1, \"1769817600\": 4, \"1769904000\": 1, \"1770595200\": 1, \"1770681600\": 4, \"1770768000\": 3, \"1770854400\": 1, \"1771027200\": 1, \"1771200000\": 1, \"1771286400\": 3, \"1771372800\": 1, \"1771459200\": 4, \"1771545600\": 2, \"1771632000\": 5, \"1771718400\": 2, \"1771804800\": 2, \"1771891200\": 1, \"1771977600\": 4, \"1772064000\": 2, \"1772150400\": 7, \"1772236800\": 12, \"1772323200\": 2, \"1772409600\": 3, \"1772496000\": 5, \"1772582400\": 1, \"1772668800\": 1, \"1772755200\": 1, \"1772841600\": 3, \"1773014400\": 3, \"1773100800\": 11, \"1773187200\": 6, \"1773273600\": 5, \"1773360000\": 1, \"1773446400\": 3, \"1773532800\": 1, \"1773619200\": 2, \"1773705600\": 2, \"1773792000\": 1, \"1774051200\": 2, \"1774137600\": 3, \"1774224000\": 1, \"1774310400\": 1, \"1774569600\": 5, \"1774656000\": 1, \"1774828800\": 1, \"1774915200\": 1, \"1775088000\": 1, \"1775347200\": 1, \"1775433600\": 2, \"1775692800\": 1, \"1749513600\": 1, \"1749600000\": 2, \"1750896000\": 1, \"1751414400\": 2, \"1751500800\": 2, \"1751673600\": 1, \"1762214400\": 6, \"1762300800\": 8, \"1762387200\": 6, \"1762473600\": 4, \"1762560000\": 5, \"1762646400\": 1, \"1762732800\": 7, \"1762819200\": 4, \"1762905600\": 8, \"1762992000\": 1, \"1763078400\": 3, \"1763164800\": 7, \"1763251200\": 3, \"1763337600\": 5, \"1763424000\": 2, \"1763510400\": 1, \"1763596800\": 1, \"1763683200\": 1, \"1764028800\": 1, \"1764115200\": 4, \"1764201600\": 1, \"1764460800\": 1, \"1764547200\": 8, \"1764633600\": 2, \"1764720000\": 2, \"1764892800\": 1, \"1765065600\": 3, \"1765152000\": 7, \"1765238400\": 7, \"1765324800\": 8, \"1765411200\": 5, \"1765497600\": 4, \"1765584000\": 8, \"1765670400\": 10, \"1765756800\": 1, \"1765843200\": 5, \"1765929600\": 1, \"1766016000\": 1, \"1766102400\": 1, \"1766188800\": 1, \"1766275200\": 1, \"1766361600\": 1, \"1766448000\": 4, \"1766534400\": 3, \"1766620800\": 1, \"1766793600\": 1, \"1766880000\": 1, \"1766966400\": 2, \"1767052800\": 3, \"1767139200\": 5}",
-    "metadata": {
-      "source": "https://leetcode.com/u/amannkumar/",
-      "source_type": "leetcode_profile",
-      "username": "amannkumar"
-    }
-  },
-  {
     "source": "pdf",
-    "content": "[From Resume — chunk 1/10]\n\nAman Kumar\n♂phone(514) 943-6119 /envel⌢peamannkumar3895@gmail.com/linkedinlinkedin.com/aamankumar/githubgithub.com/amannkumarὋCamankumar.dev\nEducation\nConcordia University Sep 2023 – Sep 2025\nMaster of Engineering- Software Engineering Montreal, Canada\nWork Experience\nBombardier Sep 2024 – May 2025\nSoftware Engineer Intern – Backend & Cloud Canada\n• Engineered aproduction-grade distributed serviceusingAWS CDK (TypeScript)andJava Lambda function,\nautomating internal workflow orchestration across3 teamsand scaling to support6M+ transactions per day.\n• LaunchedAWS CloudWatchobservability dashboards adopted by cross-functional operations teams, cutting\ninfrastructure costs by$8K+ monthlyand eliminating80+ hoursof manual monitoring effort per week.\n• Designed anevent-driven distributed architec",
+    "content": "[From Resume — chunk 1/10]\n\nAman Kumar\n♂phone(514) 943-6119 /envel⌢peamannkumar3895@gmail.com /linkedinlinkedin.com/aamankumar /githubgithub.com/amannkumar ὋCamankumar.dev\nEducation\nConcordia University Sep 2023 – Sep 2025\nMaster of Engineering- Software Engineering Montreal, Canada\nWork Experience\nBombardier Sep 2024 – May 2025\nSoftware Engineer Intern – Backend & Cloud Canada\n•Engineered aproduction-grade distributed serviceusingAWS CDK (TypeScript)andJava Lambda function,\nautomating internal workflow orchestration across3 teamsand scaling to support6M+ transactions per day.\n•LaunchedAWS CloudWatchobservability dashboards adopted by cross-functional operations teams, cutting\ninfrastructure costs by$8K+ monthlyand eliminating80+ hoursof manual monitoring effort per week.\n•Designed anevent-driven distributed architec",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -283,7 +13,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 2/10]\n\ninating80+ hoursof manual monitoring effort per week.\n• Designed anevent-driven distributed architectureconnectingAWS SNSandSQSto internal services, processing\n40M+ events daily. Persisted artifacts inAmazon S3, reducing end-to-end processing latency by25%and improving\nfault tolerance across downstream systems.\n• Developed backend services for a criticalbanking platform used by BanksusingJava, Spring Boot, and\nmicroservices architectureto deliver scalable internal banking APIs.\n• DesignedRESTful APIsfor transaction processing and CRUD operations onMySQL databases, ensuring secure\ndata flow across banking modules.\n• Migrated legacy services to a modernSpring Boot microservices architectureand implemented CI/CD pipelines\nusingAzure DevOps.\nRaintree Systems Inc May 2021 – Sep 2022\nBackend Sof",
+    "content": "[From Resume — chunk 2/10]\n\nminating80+ hoursof manual monitoring effort per week.\n•Designed anevent-driven distributed architectureconnectingAWS SNSandSQSto internal services, processing\n40M+ events daily. Persisted artifacts inAmazon S3, reducing end-to-end processing latency by25%and improving\nfault tolerance across downstream systems.\n•Developed backend services for a criticalbanking platform used by BanksusingJava, Spring Boot, and\nmicroservices architectureto deliver scalable internal banking APIs.\n•DesignedRESTful APIsfor transaction processing and CRUD operations onMySQL databases, ensuring secure\ndata flow across banking modules.\n•Migrated legacy services to a modernSpring Boot microservices architectureand implemented CI/CD pipelines\nusingAzure DevOps.\nRaintree Systems Inc May 2021 – Sep 2022\nBackend Softwa",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -295,7 +25,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 3/10]\n\nimplemented CI/CD pipelines\nusingAzure DevOps.\nRaintree Systems Inc May 2021 – Sep 2022\nBackend Software Engineer India\n• Built and maintained distributedSpring Boot microserviceswithHibernate/JPAfor ORM, designing15+\nRESTful APIsandGraphQL endpoints, achieving a65% reductionin query execution time.\n• Designed30+ AWS Lambda functionswith sharedLambda layersfor cross-service reuse, increasing processing\nspeed by35%and reusability by52%, resulting in$1,000cost savings per large-scale deployment.\n• ContainerizedSpring Boot applicationsusingDockerand orchestrated deployments onAWS EC2viaNode.js\nCI/CD scripts, reducing deployment time by40%and achieving99.9% uptimeacross production services.\n• Implemented15+ serverless workflowsusingAWS Step Functionswith REST API integrations, enabling reliab",
+    "content": "[From Resume — chunk 3/10]\n\nplemented CI/CD pipelines\nusingAzure DevOps.\nRaintree Systems Inc May 2021 – Sep 2022\nBackend Software Engineer India\n•Built and maintained distributedSpring Boot microserviceswithHibernate/JPAfor ORM, designing15+\nRESTful APIsandGraphQL endpoints, achieving a65% reductionin query execution time.\n•Designed30+ AWS Lambda functionswith sharedLambda layersfor cross-service reuse, increasing processing\nspeed by35%and reusability by52%, resulting in$1,000cost savings per large-scale deployment.\n•ContainerizedSpring Boot applicationsusingDockerand orchestrated deployments onAWS EC2viaNode.js\nCI/CD scripts, reducing deployment time by40%and achieving99.9% uptimeacross production services.\n•Implemented15+ serverless workflowsusingAWS Step Functionswith REST API integrations, enabling reliable\norch",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -307,7 +37,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 4/10]\n\nmplemented15+ serverless workflowsusingAWS Step Functionswith REST API integrations, enabling reliable\norchestration across5+ backend microservicesand eliminating manual handoff errors.\n• Delivered end-to-end backend development ofSpring Boot microservicesand REST APIs integrated with\nPostgreSQL, reducing project delivery time by15%.\n• Achieved98% unit test pass rateusingJUnit and Mockito, improving reliability of large-scale codebases.\n• Diagnosed and resolved production defects across distributed systems, reducing downtime by20%.\n• Collaborated with stakeholders and engineers inAgile ceremoniesto deliver scalable enterprise solutions.\n• Spearheaded backend development forEpayrent(150K+ Play Store downloads), building secureSpring Boot\nmicroservicesand REST APIs that improved system respo",
+    "content": "[From Resume — chunk 4/10]\n\nted15+ serverless workflowsusingAWS Step Functionswith REST API integrations, enabling reliable\norchestration across5+ backend microservicesand eliminating manual handoff errors.\n•Delivered end-to-end backend development ofSpring Boot microservicesand REST APIs integrated with\nPostgreSQL, reducing project delivery time by15%.\n•Achieved98% unit test pass rateusingJUnit and Mockito, improving reliability of large-scale codebases.\n•Diagnosed and resolved production defects across distributed systems, reducing downtime by20%.\n•Collaborated with stakeholders and engineers inAgile ceremoniesto deliver scalable enterprise solutions.\n•Spearheaded backend development forEpayrent(150K+ Play Store downloads), building secureSpring Boot\nmicroservicesand REST APIs that improved system response time by2",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -319,7 +49,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 5/10]\n\ny Store downloads), building secureSpring Boot\nmicroservicesand REST APIs that improved system response time by20%and increased user engagement by30%.\n• ImplementedJWT-based authenticationwith Spring Security and designed a centralized logging framework, reducing\ndebugging time by25%while improving API monitoring and reliability.\n• Mentored junior developers inSpring Boot and microservices architectureand collaborated inAgile sprintsto\ndeliver production-ready features.\nV. Milak Enterprise Jan 2021 – Apr 2021\nSoftware Engineer Intern India\n• Replaced a monolithic, manually-triggered ERP system with aSpring Boot serverless architectureon AWS,\ndeveloping10+ Lambda functionsand Step Function workflows that cut execution time from∼50 min to∼30 min\n(40% faster), generating$3K savingsper deploym",
+    "content": "[From Resume — chunk 5/10]\n\nloads), building secureSpring Boot\nmicroservicesand REST APIs that improved system response time by20%and increased user engagement by30%.\n•ImplementedJWT-based authenticationwith Spring Security and designed a centralized logging framework, reducing\ndebugging time by25%while improving API monitoring and reliability.\n•Mentored junior developers inSpring Boot and microservices architectureand collaborated inAgile sprintsto\ndeliver production-ready features.\nV. Milak Enterprise Jan 2021 – Apr 2021\nSoftware Engineer Intern India\n•Replaced a monolithic, manually-triggered ERP system with aSpring Boot serverless architectureon AWS,\ndeveloping10+ Lambda functionsand Step Function workflows that cut execution time from∼50 min to∼30 min\n(40% faster), generating$3K savingsper deployment.\n•Designed",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -331,7 +61,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 6/10]\n\nrkflows that cut execution time from∼50 min to∼30 min\n(40% faster), generating$3K savingsper deployment.\n• Designed and deployed a scalableSpring Boot applicationwithPostgreSQLandMongoDBfor hybrid relational\n/document data storage, containerized onAWS EC2, serving real-time ERP data to15+ internal stakeholderswith\nzero reported downtime.\n\n• Developed and maintainedSpring Boot REST APIsenabling integration between internal services and client\napplications.\n• DesignedMongoDB schemasfor complex unstructured data, improving query performance by20%.\n• Built containerized microservices usingDockerand implemented unit tests usingJUnit.\nProjects\nAI-Powered Developer Portfolio|WebsiteNextJS|TypeScript|Spring Boot|Grok API|AWS\n• Built a full-stack AI-powered portfolio with aSpring Boot microservices",
+    "content": "[From Resume — chunk 6/10]\n\nt execution time from∼50 min to∼30 min\n(40% faster), generating$3K savingsper deployment.\n•Designed and deployed a scalableSpring Boot applicationwithPostgreSQLandMongoDBfor hybrid relational\n/document data storage, containerized onAWS EC2, serving real-time ERP data to15+ internal stakeholderswith\nzero reported downtime.\n\n•Developed and maintainedSpring Boot REST APIsenabling integration between internal services and client\napplications.\n•DesignedMongoDB schemasfor complex unstructured data, improving query performance by20%.\n•Built containerized microservices usingDockerand implemented unit tests usingJUnit.\nProjects\nAI-Powered Developer Portfolio|WebsiteNextJS|TypeScript|Spring Boot|Grok API|AWS\n•Built a full-stack AI-powered portfolio with aSpring Boot microservices backendonAWS, integ",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -343,7 +73,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 7/10]\n\nt|Spring Boot|Grok API|AWS\n• Built a full-stack AI-powered portfolio with aSpring Boot microservices backendonAWS, integratingSupabase\n(PostgreSQL)andPrisma ORMfor secure real-time data sync with GitHub, Notion, and LeetCode, driving1,000+\nvisitsand reducing recruiter screening time by50%.\n• Deployed globally viaVercel CI/CD pipelineintegrated with GitHub.\nHealthPal|Website|Source CodeTensorFlow|Spring Boot|Flutter\n• Built a full-stack virtual care platform combiningAI-driven health guidance,sentiment-aware TTS therapy, and\ngeolocated clinic discovery, integratingTensorFlow modelswith aSpring Boot GraphQL APIandFlutter\nfrontend, improving patient engagement by40%and reducing care workflow latency by30%.\nBank Bridge Jun 2024 – Sep 2024\n• Built a financial services platform usingReact, Sprin",
+    "content": "[From Resume — chunk 7/10]\n\nAPI|AWS\n•Built a full-stack AI-powered portfolio with aSpring Boot microservices backendonAWS, integratingSupabase\n(PostgreSQL)andPrisma ORMfor secure real-time data sync with GitHub, Notion, and LeetCode, driving1,000+\nvisitsand reducing recruiter screening time by50%.\n•Deployed globally viaVercel CI/CD pipelineintegrated with GitHub.\nHealthPal|Website|Source CodeTensorFlow|Spring Boot|Flutter\n•Built a full-stack virtual care platform combiningAI-driven health guidance,sentiment-aware TTS therapy, and\ngeolocated clinic discovery, integratingTensorFlow modelswith aSpring Boot GraphQL APIandFlutter\nfrontend, improving patient engagement by40%and reducing care workflow latency by30%.\nBank Bridge Jun 2024 – Sep 2024\n•Built a financial services platform usingReact, Spring Boot, and MongoDBenab",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -355,7 +85,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 8/10]\n\ntency by30%.\nBank Bridge Jun 2024 – Sep 2024\n• Built a financial services platform usingReact, Spring Boot, and MongoDBenabling real-time transaction\nmonitoring and expense insights.\n• IntegratedPlaid APIfor secure bank account connectivity and designed REST APIs for reliable transaction data\nprocessing.\nJira Voice Assistant Chrome Extension Jan 2024 – Apr 2024\n• Developed aChrome extension using React and WebKit Speech Recognitionenabling voice-controlled\ninteraction with Jira for task management.\n• Integrated Jira APIs to automate story creation and workflow updates, improving productivity in project management\ntasks.\nCalorie Scanner (AI Health App) Jun 2025 – Jul 2025\n• Built a nutrition analysis platform usingReact, Spring Boot, and OpenAI APIsto scan food labels and generate\npersonali",
+    "content": "[From Resume — chunk 8/10]\n\nge Jun 2024 – Sep 2024\n•Built a financial services platform usingReact, Spring Boot, and MongoDBenabling real-time transaction\nmonitoring and expense insights.\n•IntegratedPlaid APIfor secure bank account connectivity and designed REST APIs for reliable transaction data\nprocessing.\nJira Voice Assistant Chrome Extension Jan 2024 – Apr 2024\n•Developed aChrome extension using React and WebKit Speech Recognitionenabling voice-controlled\ninteraction with Jira for task management.\n•Integrated Jira APIs to automate story creation and workflow updates, improving productivity in project management\ntasks.\nCalorie Scanner (AI Health App) Jun 2025 – Jul 2025\n•Built a nutrition analysis platform usingReact, Spring Boot, and OpenAI APIsto scan food labels and generate\npersonalized health recommendations.",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -367,7 +97,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 9/10]\n\nanalysis platform usingReact, Spring Boot, and OpenAI APIsto scan food labels and generate\npersonalized health recommendations.\n• Hosted backend services onAWS EC2, stored images inAWS S3, and managed data withMongoDB.Leadership Experience\nTechnical Mentor & Initiative Lead Raintree Systems Inc\n∗Accelerated team delivery capacity by mentoring2 software engineering internsover4 months, cutting onboarding\ntime from8 weeks to∼5 weeks (35% faster)through structured backend training inSpring Boot,microservices,\nanddistributed systems design- enabling interns to contribute to sprint cycles2 weeks ahead of schedule.\n∗Designed weekly learning modules coveringSpring Boot,microservices architecture, andREST API design,\nenabling interns to independently deliver6+ production-ready features(including a",
+    "content": "[From Resume — chunk 9/10]\n\nt, Spring Boot, and OpenAI APIsto scan food labels and generate\npersonalized health recommendations.\n•Hosted backend services onAWS EC2, stored images inAWS S3, and managed data withMongoDB.Leadership Experience\nTechnical Mentor & Initiative Lead Raintree Systems Inc\n∗Accelerated team delivery capacity by mentoring2 software engineering internsover4 months, cutting onboarding\ntime from8 weeks to∼5 weeks (35% faster)through structured backend training inSpring Boot,microservices,\nanddistributed systems design- enabling interns to contribute to sprint cycles2 weeks ahead of schedule.\n∗Designed weekly learning modules coveringSpring Boot,microservices architecture, andREST API design,\nenabling interns to independently deliver6+ production-ready features(including a reporting API and async\nnot",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
@@ -379,7 +109,7 @@
   },
   {
     "source": "pdf",
-    "content": "[From Resume — chunk 10/10]\n\nndREST API design,\nenabling interns to independently deliver6+ production-ready features(including a reporting API and async\nnotification service) within their first60 days, contributing directly to aQ3 product release milestone.\nTechnical Skills\nLanguages: Java, Python, JavaScript, TypeScript, SQL, HTML5, CSS, C\nDeveloper Tools: AWS, Postman, Git, Docker, Prisma, Supabase, Google Cloud Platform, Firebase, PowerBI, Azure\nLibraries/Frameworks: Spring Boot, React.js, Next.js, React Native, Expo, PostgreSQL, VueJS, Flutter\nGenerative AI: LangChain, Hugging Face, OpenAI APIs, LlamaIndex, VectorDBs, Ollama, Prompt- Context Engineering",
+    "content": "[From Resume — chunk 10/10]\n\ninterns to independently deliver6+ production-ready features(including a reporting API and async\nnotification service) within their first60 days, contributing directly to aQ3 product release milestone.\nTechnical Skills\nLanguages: Java, Python, JavaScript, TypeScript, SQL, HTML5, CSS, C\nDeveloper Tools: AWS, Postman, Git, Docker, Prisma, Supabase, Google Cloud Platform, Firebase, PowerBI, Azure\nLibraries/Frameworks: Spring Boot, React.js, Next.js, React Native, Expo, PostgreSQL, VueJS, Flutter\nGenerative AI: LangChain, Hugging Face, OpenAI APIs, LlamaIndex, VectorDBs, Ollama, Prompt- Context Engineering",
     "metadata": {
       "source": "file://data/pdfs/resume.pdf",
       "source_type": "pdf",
