@@ -79,7 +79,7 @@ export const socialLinks = {
   github: "https://github.com/amannkumar",
   repoUrl: "https://github.com/amannkumar/personal_website",
   leetcode: "https://leetcode.com/u/amannkumar/",
-  cv: "https://drive.google.com/file/d/1DbYgek1g1vLg0FDTJKSFEMGDHWc4D5Lz/view?usp=sharing",
+  cv: "https://drive.google.com/file/d/1CWL7JJTuetQV-V12HFWHXFMPIbUmbbR3/view?usp=sharing",
 };
 
 export const aboutMe = {
